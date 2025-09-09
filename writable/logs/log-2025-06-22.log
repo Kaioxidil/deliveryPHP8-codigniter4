@@ -1,0 +1,1308 @@
+CRITICAL - 2025-06-22 00:04:40 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 00:04:40 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 00:04:41 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 00:04:41 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 00:04:41 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 00:04:41 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2025-06-22 17:09:13 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+CRITICAL - 2025-06-22 17:09:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+#0 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Food\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Food\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\Food\app\Models\UsuarioModel.php(98): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\Food\app\Libraries\Autenticacao.php(21): App\Models\UsuarioModel->buscaUsuarioPorEmail('kaiogremaschida...')
+#6 C:\xampp\htdocs\Food\app\Controllers\Login.php(24): App\Libraries\Autenticacao->login('kaiogremaschida...', '310107')
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Login->criar()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-06-22 17:11:18 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:11:18 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:11:18 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:11:18 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:11:19 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:11:19 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:02 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:02 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:02 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:02 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:03 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:03 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:04 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:04 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:04 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:04 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:04 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:05 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:08 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:08 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:08 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:09 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:09 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:09 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:11 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:11 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:11 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:11 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:11 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:11 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:14 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:14 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:14 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:14 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:14 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:15 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:16 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 156
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(156): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->excluir('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:16 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 156
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(156): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->excluir('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:16 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 156
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(156): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->excluir('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:16 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 156
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(156): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->excluir('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:16 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 156
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(156): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->excluir('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:17 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 156
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(156): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->excluir('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:26 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:26 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:26 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:26 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:27 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:27 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:29 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:29 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:29 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:29 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:29 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:29 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:31 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:31 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:31 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:32 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:32 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:32 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:33 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 156
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(156): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->excluir('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:33 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 156
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(156): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->excluir('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:33 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 156
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(156): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->excluir('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:34 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 156
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(156): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->excluir('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:34 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 156
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(156): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->excluir('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:18:34 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 156
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(156): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->excluir('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2025-06-22 17:25:54 --> Table 'usuarios' already exists
+ERROR - 2025-06-22 17:26:45 --> Table 'usuarios' already exists
+CRITICAL - 2025-06-22 17:56:12 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:12 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:12 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:12 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:12 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:12 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:18 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:18 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:18 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:18 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:18 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:18 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:21 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:21 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:21 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:21 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:21 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:21 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:30 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:30 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:30 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:30 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:30 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:31 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:34 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:34 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:34 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:34 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:34 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:34 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:56 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:56 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:56 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:56 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:57 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:57 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:59 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:56:59 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:57:00 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:57:00 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:57:00 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 17:57:00 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 19:28:43 --> Call to a member function humanize() on string
+#0 C:\xampp\htdocs\Food\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Categoria...', Array, true)
+#3 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(25): view('Admin/Categoria...', Array)
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->index()
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2025-06-22 19:29:24 --> Call to a member function humanize() on string
+#0 C:\xampp\htdocs\Food\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Categoria...', Array, true)
+#3 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(25): view('Admin/Categoria...', Array)
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->index()
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2025-06-22 19:29:24 --> Call to a member function humanize() on string
+#0 C:\xampp\htdocs\Food\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Categoria...', Array, true)
+#3 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(25): view('Admin/Categoria...', Array)
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->index()
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2025-06-22 19:29:25 --> Call to a member function humanize() on string
+#0 C:\xampp\htdocs\Food\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Categoria...', Array, true)
+#3 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(25): view('Admin/Categoria...', Array)
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->index()
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2025-06-22 19:29:25 --> Call to a member function humanize() on string
+#0 C:\xampp\htdocs\Food\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Categoria...', Array, true)
+#3 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(25): view('Admin/Categoria...', Array)
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->index()
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2025-06-22 19:29:56 --> Call to a member function humanize() on string
+#0 C:\xampp\htdocs\Food\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Categoria...', Array, true)
+#3 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(25): view('Admin/Categoria...', Array)
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->index()
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2025-06-22 19:30:54 --> Call to a member function humanize() on string
+#0 C:\xampp\htdocs\Food\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Categoria...', Array, true)
+#3 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(25): view('Admin/Categoria...', Array)
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->index()
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2025-06-22 19:48:11 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\Food\app\Views\Admin\Categorias\show.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Food\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/categoria...', Array, true)
+#4 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(54): view('Admin/categoria...', Array)
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->show('1')
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2025-06-22 19:48:33 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\Food\app\Views\Admin\Categorias\show.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Food\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Categoria...', Array, true)
+#4 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(54): view('Admin/Categoria...', Array)
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->show('1')
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2025-06-22 19:48:39 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\Food\app\Views\Admin\Categorias\show.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Food\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Categoria...', Array, true)
+#4 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(54): view('Admin/Categoria...', Array)
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->show('1')
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2025-06-22 19:50:45 --> Call to a member function humanize() on string
+#0 C:\xampp\htdocs\Food\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/categoria...', Array, true)
+#3 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(54): view('Admin/categoria...', Array)
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->show('1')
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2025-06-22 19:52:57 --> App\Controllers\Admin\Categorias::buscaCategoriaOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php on line 48
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscaCategoriaOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 19:52:57 --> App\Controllers\Admin\Categorias::buscaCategoriaOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php on line 48
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscaCategoriaOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 19:52:57 --> App\Controllers\Admin\Categorias::buscaCategoriaOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php on line 48
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscaCategoriaOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 19:52:57 --> App\Controllers\Admin\Categorias::buscaCategoriaOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php on line 48
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscaCategoriaOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 19:52:58 --> App\Controllers\Admin\Categorias::buscaCategoriaOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php on line 48
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscaCategoriaOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 19:52:58 --> App\Controllers\Admin\Categorias::buscaCategoriaOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php on line 48
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscaCategoriaOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 19:53:46 --> App\Controllers\Admin\Categorias::buscaCategoriaOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php on line 48
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscaCategoriaOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 19:53:46 --> App\Controllers\Admin\Categorias::buscaCategoriaOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php on line 48
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscaCategoriaOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 19:53:46 --> App\Controllers\Admin\Categorias::buscaCategoriaOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php on line 48
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscaCategoriaOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 19:53:46 --> App\Controllers\Admin\Categorias::buscaCategoriaOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php on line 48
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscaCategoriaOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 19:53:46 --> App\Controllers\Admin\Categorias::buscaCategoriaOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php on line 48
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscaCategoriaOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 19:53:46 --> App\Controllers\Admin\Categorias::buscaCategoriaOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php on line 48
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscaCategoriaOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 19:54:22 --> App\Controllers\Admin\Categorias::buscaCategoriaOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php on line 48
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscaCategoriaOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 19:54:22 --> App\Controllers\Admin\Categorias::buscaCategoriaOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php on line 48
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscaCategoriaOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 19:54:22 --> App\Controllers\Admin\Categorias::buscaCategoriaOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php on line 48
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscaCategoriaOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 19:54:22 --> App\Controllers\Admin\Categorias::buscaCategoriaOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php on line 48
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscaCategoriaOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 19:54:22 --> App\Controllers\Admin\Categorias::buscaCategoriaOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php on line 48
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscaCategoriaOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 19:54:22 --> App\Controllers\Admin\Categorias::buscaCategoriaOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php on line 48
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(48): App\Controllers\Admin\Categorias->buscaCategoriaOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-22 20:02:31 --> Undefined variable $categoria
+#0 C:\xampp\htdocs\Food\app\Views\Admin\Usuarios\show.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\Food\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Usuarios/...', Array, true)
+#4 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(57): view('Admin/Usuarios/...', Array)
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('1')
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2025-06-22 20:16:47 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\Food\app\Views\Admin\Categorias\editar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\Food\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/categoria...', Array, true)
+#4 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(72): view('Admin/categoria...', Array)
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->editar('1')
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2025-06-22 20:18:00 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\Food\app\Views\Admin\Categorias\editar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\Food\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/categoria...', Array, true)
+#4 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(72): view('Admin/categoria...', Array)
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->editar('1')
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2025-06-22 20:19:37 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\Food\app\Views\Admin\Categorias\editar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\Food\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/categoria...', Array, true)
+#4 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(72): view('Admin/categoria...', Array)
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->editar('1')
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2025-06-22 20:54:59 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\Food\app\Views\Admin\Usuarios\form.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\Food\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Food\system\View\View.php(424): CodeIgniter\View\View->render('Admin/Usuarios/...', NULL, true)
+#4 C:\xampp\htdocs\Food\app\Views\Admin\Categorias\criar.php(27): CodeIgniter\View\View->include('Admin/Usuarios/...')
+#5 C:\xampp\htdocs\Food\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/categoria...', Array, true)
+#8 C:\xampp\htdocs\Food\app\Controllers\Admin\Categorias.php(57): view('Admin/categoria...', Array)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Categorias->criar()
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+#11 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-06-22 22:35:08 --> Call to a member function humanize() on null
+#0 C:\xampp\htdocs\Food\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Extras/in...', Array, true)
+#3 C:\xampp\htdocs\Food\app\Controllers\Admin\Extras.php(27): view('Admin/Extras/in...', Array)
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Extras->index()
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Extras))
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2025-06-22 22:36:13 --> Call to a member function humanize() on null
+#0 C:\xampp\htdocs\Food\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Extras/in...', Array, true)
+#3 C:\xampp\htdocs\Food\app\Controllers\Admin\Extras.php(27): view('Admin/Extras/in...', Array)
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Extras->index()
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Extras))
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2025-06-22 22:37:14 --> Undefined variable $pager
+#0 C:\xampp\htdocs\Food\app\Views\Admin\Extras\index.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\Food\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Extras/in...', Array, true)
+#4 C:\xampp\htdocs\Food\app\Controllers\Admin\Extras.php(27): view('Admin/Extras/in...', Array)
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Extras->index()
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Extras))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2025-06-22 22:44:58 --> Undefined variable $categoria
+#0 C:\xampp\htdocs\Food\app\Views\Admin\Extras\show.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Food\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/extras/sh...', Array, true)
+#4 C:\xampp\htdocs\Food\app\Controllers\Admin\Extras.php(57): view('Admin/extras/sh...', Array)
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Extras->show('1')
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Extras))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

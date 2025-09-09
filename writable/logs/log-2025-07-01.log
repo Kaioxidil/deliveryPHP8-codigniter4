@@ -1,0 +1,75 @@
+CRITICAL - 2025-07-01 12:41:49 --> View themes, no current section.
+#0 C:\xampp\htdocs\Food\app\Views\Home\index.php(3): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\Food\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Home/index', Array, true)
+#4 C:\xampp\htdocs\Food\app\Controllers\Home.php(15): view('Home/index', Array)
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2025-07-01 19:14:23 --> number_format(): Passing null to parameter #1 ($num) of type float is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'number_format()...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\Food\app\Views\Admin\Produtos\index.php(47): number_format(NULL, 2, ',', '.')
+#2 C:\xampp\htdocs\Food\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Produtos/...', Array, true)
+#5 C:\xampp\htdocs\Food\app\Controllers\Admin\Produtos.php(42): view('Admin/Produtos/...', Array)
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Produtos->index()
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2025-07-01 19:39:08 --> Arquivo inválido: Admin/FormasPagamento/form.php
+#0 C:\xampp\htdocs\Food\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/FormasPag...')
+#1 C:\xampp\htdocs\Food\system\View\View.php(424): CodeIgniter\View\View->render('Admin/FormasPag...', NULL, true)
+#2 C:\xampp\htdocs\Food\app\Views\Admin\FormasPagamentos\editar.php(27): CodeIgniter\View\View->include('Admin/FormasPag...')
+#3 C:\xampp\htdocs\Food\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/FormasPag...', Array, true)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\FormasPagamentos.php(70): view('Admin/FormasPag...', Array)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\FormasPagamentos->editar(2)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\FormasPagamentos))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-07-01 20:16:18 --> Undefined variable $extra
+#0 C:\xampp\htdocs\Food\app\Views\Admin\FormasPagamentos\excluir.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\Food\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/FormasPag...', Array, true)
+#4 C:\xampp\htdocs\Food\app\Controllers\Admin\FormasPagamentos.php(165): view('Admin/FormasPag...', Array)
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\FormasPagamentos->excluir('2')
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\FormasPagamentos))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2025-07-01 20:17:05 --> Call to undefined method App\Models\FormaPagamentoModel::desfazerExclusao
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\FormasPagamentos.php(176): CodeIgniter\Model->__call('desfazerExclusa...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\FormasPagamentos->desfazerExclusao('2')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\FormasPagamentos))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-01 20:17:48 --> Call to undefined method App\Models\FormaPagamentoModel::desfazerExclusao
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\FormasPagamentos.php(176): CodeIgniter\Model->__call('desfazerExclusa...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\FormasPagamentos->desfazerExclusao('2')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\FormasPagamentos))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-01 20:17:49 --> Call to undefined method App\Models\FormaPagamentoModel::desfazerExclusao
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\FormasPagamentos.php(176): CodeIgniter\Model->__call('desfazerExclusa...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\FormasPagamentos->desfazerExclusao('2')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\FormasPagamentos))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

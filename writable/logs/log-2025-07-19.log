@@ -1,0 +1,904 @@
+CRITICAL - 2025-07-19 01:15:28 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/pedidos/a...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-19 01:16:02 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/pedidos/a...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2025-07-19 01:28:14 --> Unknown column 'valor_entrega' in 'field list'
+CRITICAL - 2025-07-19 01:28:14 --> Unknown column 'valor_entrega' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Food\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Food\app\Controllers\Finalizar.php(114): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Finalizar->enviar()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finalizar))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-07-19 01:34:45 --> Undefined array key "valor_entrega"
+#0 C:\xampp\htdocs\Food\app\Controllers\Finalizar.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 220)
+#1 C:\xampp\htdocs\Food\app\Controllers\Finalizar.php(116): App\Controllers\Finalizar->_montaMensagemWhatsApp(6, Array, Array)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Finalizar->enviar()
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finalizar))
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-19 01:40:28 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/pedidos/a...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-19 02:12:08 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/pedidos/a...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-19 02:32:58 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(57): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 02:33:00 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(57): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 02:33:00 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(57): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 02:33:03 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(57): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(7)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 02:36:32 --> Cannot redeclare App\Controllers\OrdensController::detalhes()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-19 02:37:02 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 02:37:03 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 02:37:04 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 02:37:05 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 02:37:05 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 02:37:05 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 02:37:06 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 02:37:07 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 02:37:07 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 02:38:24 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(3)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 02:38:28 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 02:38:43 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 02:38:46 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(7)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 02:38:51 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 02:38:53 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 02:38:54 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 02:38:56 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 02:38:58 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 02:38:59 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 02:39:01 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 02:39:03 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 02:39:05 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 02:39:07 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 02:39:14 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(7)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 02:42:50 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(5)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 02:42:53 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 02:42:56 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(7)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 18:21:09 --> Undefined variable $totalPedidos
+#0 C:\xampp\htdocs\Food\app\Views\Admin\Home\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\Food\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Home/inde...', Array, true)
+#4 C:\xampp\htdocs\Food\app\Controllers\Admin\Home.php(40): view('Admin/Home/inde...', Array)
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Home->index()
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2025-07-19 18:26:34 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 18:40:39 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 18:40:43 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(5)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 18:43:24 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 18:47:10 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 18:47:12 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(7)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 18:47:14 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(5)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 18:47:16 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(4)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 18:47:19 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(5)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 18:48:40 --> Undefined variable $pedido
+#0 C:\xampp\htdocs\Food\app\Views\Conta\Ordens\index.php(155): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 155)
+#1 C:\xampp\htdocs\Food\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Conta/Ordens/in...', Array, true)
+#4 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(33): view('Conta/Ordens/in...', Array)
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->index()
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2025-07-19 18:49:02 --> Undefined variable $pedido
+#0 C:\xampp\htdocs\Food\app\Views\Conta\Ordens\index.php(155): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 155)
+#1 C:\xampp\htdocs\Food\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Conta/Ordens/in...', Array, true)
+#4 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(33): view('Conta/Ordens/in...', Array)
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->index()
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2025-07-19 19:13:37 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 19:13:42 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(7)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 19:23:06 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/pedidos/a...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2025-07-19 23:07:04 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+CRITICAL - 2025-07-19 23:07:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+#0 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#2 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\Food\app\Controllers\Home.php(32): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2025-07-19 23:19:15 --> Call to undefined method App\Models\PedidoItemModel::recuperaItensDoPedido
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(59): CodeIgniter\Model->__call('recuperaItensDo...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(9)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2025-07-19 23:47:24 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+CRITICAL - 2025-07-19 23:47:24 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoItemModel.php(79): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(60): App\Models\PedidoItemModel->recuperaItensDoPedidoParaModal(9)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(9)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-19 23:47:26 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+CRITICAL - 2025-07-19 23:47:26 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoItemModel.php(79): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(60): App\Models\PedidoItemModel->recuperaItensDoPedidoParaModal(8)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-19 23:47:28 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+CRITICAL - 2025-07-19 23:47:28 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoItemModel.php(79): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(60): App\Models\PedidoItemModel->recuperaItensDoPedidoParaModal(7)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(7)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-19 23:47:34 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+CRITICAL - 2025-07-19 23:47:34 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoItemModel.php(79): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(60): App\Models\PedidoItemModel->recuperaItensDoPedidoParaModal(9)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(9)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-19 23:50:55 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+CRITICAL - 2025-07-19 23:50:55 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoItemModel.php(79): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(54): App\Models\PedidoItemModel->recuperaItensDoPedidoParaModal(9)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(9)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-19 23:50:57 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+CRITICAL - 2025-07-19 23:50:57 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoItemModel.php(79): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(54): App\Models\PedidoItemModel->recuperaItensDoPedidoParaModal(8)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-19 23:51:28 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+CRITICAL - 2025-07-19 23:51:28 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoItemModel.php(79): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(54): App\Models\PedidoItemModel->recuperaItensDoPedidoParaModal(8)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-19 23:51:30 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+CRITICAL - 2025-07-19 23:51:30 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoItemModel.php(79): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(54): App\Models\PedidoItemModel->recuperaItensDoPedidoParaModal(7)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(7)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-19 23:51:31 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+CRITICAL - 2025-07-19 23:51:31 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoItemModel.php(79): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(54): App\Models\PedidoItemModel->recuperaItensDoPedidoParaModal(5)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(5)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-19 23:51:33 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+CRITICAL - 2025-07-19 23:51:33 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoItemModel.php(79): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(54): App\Models\PedidoItemModel->recuperaItensDoPedidoParaModal(7)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(7)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-19 23:51:34 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+CRITICAL - 2025-07-19 23:51:34 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoItemModel.php(79): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(54): App\Models\PedidoItemModel->recuperaItensDoPedidoParaModal(8)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-19 23:51:36 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+CRITICAL - 2025-07-19 23:51:36 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoItemModel.php(79): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(54): App\Models\PedidoItemModel->recuperaItensDoPedidoParaModal(9)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(9)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-19 23:51:37 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+CRITICAL - 2025-07-19 23:51:37 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoItemModel.php(79): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(54): App\Models\PedidoItemModel->recuperaItensDoPedidoParaModal(9)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(9)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-19 23:51:38 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+CRITICAL - 2025-07-19 23:51:38 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoItemModel.php(79): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(54): App\Models\PedidoItemModel->recuperaItensDoPedidoParaModal(8)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-19 23:51:40 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+CRITICAL - 2025-07-19 23:51:40 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoItemModel.php(79): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(54): App\Models\PedidoItemModel->recuperaItensDoPedidoParaModal(7)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(7)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-19 23:51:41 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+CRITICAL - 2025-07-19 23:51:41 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoItemModel.php(79): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(54): App\Models\PedidoItemModel->recuperaItensDoPedidoParaModal(5)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(5)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-19 23:51:43 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+CRITICAL - 2025-07-19 23:51:43 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoItemModel.php(79): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(54): App\Models\PedidoItemModel->recuperaItensDoPedidoParaModal(3)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(3)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-19 23:51:44 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+CRITICAL - 2025-07-19 23:51:44 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoItemModel.php(79): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(54): App\Models\PedidoItemModel->recuperaItensDoPedidoParaModal(2)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(2)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-19 23:51:45 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+CRITICAL - 2025-07-19 23:51:45 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoItemModel.php(79): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(54): App\Models\PedidoItemModel->recuperaItensDoPedidoParaModal(3)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(3)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-19 23:51:47 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+CRITICAL - 2025-07-19 23:51:47 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoItemModel.php(79): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(54): App\Models\PedidoItemModel->recuperaItensDoPedidoParaModal(4)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(4)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-19 23:51:48 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+CRITICAL - 2025-07-19 23:51:48 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoItemModel.php(79): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(54): App\Models\PedidoItemModel->recuperaItensDoPedidoParaModal(5)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(5)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-19 23:51:50 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+CRITICAL - 2025-07-19 23:51:50 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoItemModel.php(79): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(54): App\Models\PedidoItemModel->recuperaItensDoPedidoParaModal(8)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-19 23:51:51 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+CRITICAL - 2025-07-19 23:51:51 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoItemModel.php(79): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(54): App\Models\PedidoItemModel->recuperaItensDoPedidoParaModal(9)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(9)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-19 23:52:28 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+CRITICAL - 2025-07-19 23:52:28 --> Unknown column 'pedidos_produtos.quantidade' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoItemModel.php(79): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(54): App\Models\PedidoItemModel->recuperaItensDoPedidoParaModal(9)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(9)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-07-19 23:55:52 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Pedidos->getDadosImpressao()
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2025-07-19 23:55:55 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Pedidos->getDadosImpressao()
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2025-07-19 23:55:57 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Pedidos->getDadosImpressao()
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2025-07-19 23:56:06 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Pedidos->getDadosImpressao()
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2025-07-19 23:56:38 --> Attempt to read property "quantidade" on array
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(9)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 23:57:05 --> Attempt to read property "quantidade" on array
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(9)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-19 23:57:07 --> Attempt to read property "quantidade" on array
+#0 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(8)
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

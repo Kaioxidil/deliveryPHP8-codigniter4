@@ -1,0 +1,1788 @@
+ERROR - 2025-06-20 00:43:57 --> mysqli_sql_exception: Table 'usuarios' already exists in C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\Food\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\Food\app\Database\Migrations\2025-06-16-154557_CriaTabelaUsuarios.php(98): CodeIgniter\Database\Forge->createTable('usuarios')
+#5 C:\xampp\htdocs\Food\system\Database\MigrationRunner.php(876): App\Database\Migrations\CriaTabelaUsuarios->up()
+#6 C:\xampp\htdocs\Food\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\Food\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\Food\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\Food\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\Food\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\Food\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\Food\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-06-20 00:44:33 --> mysqli_sql_exception: Table 'usuarios' already exists in C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\Food\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\Food\app\Database\Migrations\2025-06-16-154557_CriaTabelaUsuarios.php(98): CodeIgniter\Database\Forge->createTable('usuarios')
+#5 C:\xampp\htdocs\Food\system\Database\MigrationRunner.php(876): App\Database\Migrations\CriaTabelaUsuarios->up()
+#6 C:\xampp\htdocs\Food\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\Food\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\Food\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\Food\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\Food\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\Food\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\Food\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+DEBUG - 2025-06-20 00:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 00:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 00:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 00:54:13 --> CSRF token verified.
+DEBUG - 2025-06-20 00:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 00:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 00:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 00:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 01:15:47 --> CSRF token verified.
+DEBUG - 2025-06-20 01:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 01:49:26 --> CSRF token verified.
+DEBUG - 2025-06-20 01:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 01:50:09 --> CSRF token verified.
+DEBUG - 2025-06-20 01:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 01:50:32 --> CSRF token verified.
+DEBUG - 2025-06-20 01:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 01:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-20 02:10:14 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/logo.svg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 156.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 02:10:14 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/logo-mini.svg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 156.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 02:10:14 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/faces/face4.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 156.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 02:10:14 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/faces/face2.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 156.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 02:10:14 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/faces/face3.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 156.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 02:10:14 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/faces/face5.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 156.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+DEBUG - 2025-06-20 02:10:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-20 02:10:57 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/logo.svg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 156.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+DEBUG - 2025-06-20 02:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:11:31 --> CSRF token verified.
+DEBUG - 2025-06-20 02:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:15:52 --> CSRF token verified.
+DEBUG - 2025-06-20 02:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:15:54 --> CSRF token verified.
+DEBUG - 2025-06-20 02:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:15:55 --> CSRF token verified.
+DEBUG - 2025-06-20 02:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:17:16 --> CSRF token verified.
+DEBUG - 2025-06-20 02:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:17:18 --> CSRF token verified.
+DEBUG - 2025-06-20 02:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:17:19 --> CSRF token verified.
+DEBUG - 2025-06-20 02:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:17:19 --> CSRF token verified.
+DEBUG - 2025-06-20 02:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:17:20 --> CSRF token verified.
+DEBUG - 2025-06-20 02:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:17:21 --> CSRF token verified.
+DEBUG - 2025-06-20 02:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:17:22 --> CSRF token verified.
+DEBUG - 2025-06-20 02:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:17:22 --> CSRF token verified.
+DEBUG - 2025-06-20 02:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:17:23 --> CSRF token verified.
+DEBUG - 2025-06-20 02:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:17:24 --> CSRF token verified.
+DEBUG - 2025-06-20 02:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:19:04 --> CSRF token verified.
+DEBUG - 2025-06-20 02:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:19:05 --> CSRF token verified.
+DEBUG - 2025-06-20 02:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:19:06 --> CSRF token verified.
+DEBUG - 2025-06-20 02:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:21:28 --> CSRF token verified.
+DEBUG - 2025-06-20 02:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:21:33 --> CSRF token verified.
+DEBUG - 2025-06-20 02:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:21:34 --> CSRF token verified.
+DEBUG - 2025-06-20 02:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:21:35 --> CSRF token verified.
+DEBUG - 2025-06-20 02:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:21:39 --> CSRF token verified.
+DEBUG - 2025-06-20 02:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:21:41 --> CSRF token verified.
+DEBUG - 2025-06-20 02:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:21:43 --> CSRF token verified.
+DEBUG - 2025-06-20 02:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:21:45 --> CSRF token verified.
+DEBUG - 2025-06-20 02:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:21:46 --> CSRF token verified.
+DEBUG - 2025-06-20 02:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:21:49 --> CSRF token verified.
+DEBUG - 2025-06-20 02:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:21:50 --> CSRF token verified.
+DEBUG - 2025-06-20 02:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:21:54 --> CSRF token verified.
+DEBUG - 2025-06-20 02:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:23:49 --> CSRF token verified.
+DEBUG - 2025-06-20 02:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:23:52 --> CSRF token verified.
+DEBUG - 2025-06-20 02:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:23:54 --> CSRF token verified.
+DEBUG - 2025-06-20 02:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:23:57 --> CSRF token verified.
+DEBUG - 2025-06-20 02:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:23:59 --> CSRF token verified.
+DEBUG - 2025-06-20 02:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:24:01 --> CSRF token verified.
+DEBUG - 2025-06-20 02:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 02:24:04 --> CSRF token verified.
+DEBUG - 2025-06-20 02:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 02:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 15:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 15:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-20 15:38:49 --> CodeIgniter\View\Exceptions\ViewException: Arquivo inválido: "Admin/Usuarios/criar.php"
+[Method: GET, Route: admin/usuarios/criar]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/Usuarios/criar.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Admin/Usuarios/criar', [], true)
+ 3 APPPATH\Controllers\Admin\Usuarios.php(68): view('Admin/Usuarios/criar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->criar()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+DEBUG - 2025-06-20 15:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 15:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 15:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 15:39:06 --> CSRF token verified.
+DEBUG - 2025-06-20 15:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 15:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 15:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-20 15:39:37 --> CSRF token verified.
+DEBUG - 2025-06-20 15:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 15:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 15:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-20 15:42:52 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/logo.svg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:42:52 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/logo-mini.svg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:42:52 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/faces/face4.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:42:52 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/faces/face2.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:42:52 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/faces/face3.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:42:52 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/faces/face5.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+DEBUG - 2025-06-20 15:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-20 15:42:53 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/logo.svg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:42:53 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/logo-mini.svg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:42:54 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/faces/face4.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:42:54 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/faces/face2.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:42:54 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/faces/face3.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:42:54 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/faces/face5.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+DEBUG - 2025-06-20 15:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-20 15:42:55 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+[Method: GET, Route: admin/usuarios/show/images/logo.svg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:42:55 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+[Method: GET, Route: admin/usuarios/show/images/logo-mini.svg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:42:55 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+[Method: GET, Route: admin/usuarios/show/images/faces/face4.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:42:55 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+[Method: GET, Route: admin/usuarios/show/images/faces/face2.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:42:55 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+[Method: GET, Route: admin/usuarios/show/images/faces/face3.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:42:56 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+[Method: GET, Route: admin/usuarios/show/images/faces/face5.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+DEBUG - 2025-06-20 15:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 15:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-20 15:43:09 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+[Method: GET, Route: admin/usuarios/show/images/logo.svg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:43:09 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+[Method: GET, Route: admin/usuarios/show/images/logo-mini.svg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:43:10 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+[Method: GET, Route: admin/usuarios/show/images/faces/face4.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:43:10 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+[Method: GET, Route: admin/usuarios/show/images/faces/face2.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:43:10 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+[Method: GET, Route: admin/usuarios/show/images/faces/face3.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:43:10 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+[Method: GET, Route: admin/usuarios/show/images/faces/face5.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+DEBUG - 2025-06-20 15:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-20 15:43:11 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/logo.svg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:43:11 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/logo-mini.svg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:43:11 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/faces/face4.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:43:12 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/faces/face2.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:43:12 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/faces/face3.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:43:12 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/faces/face5.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+INFO - 2025-06-20 15:43:14 --> CSRF token verified.
+DEBUG - 2025-06-20 15:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-20 15:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-20 15:43:15 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/logo.svg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:43:15 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/logo-mini.svg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:43:15 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/faces/face4.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:43:15 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/faces/face2.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:43:15 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/faces/face3.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:43:15 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/faces/face5.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+DEBUG - 2025-06-20 15:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-20 15:43:17 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/logo.svg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:43:17 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/logo-mini.svg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:43:17 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/faces/face4.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:43:17 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/faces/face2.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:43:17 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/faces/face3.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+CRITICAL - 2025-06-20 15:43:17 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+[Method: GET, Route: admin/usuarios/editar/images/faces/face5.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 202.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Food\\public\\index.php')
+DEBUG - 2025-06-20 15:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-20 10:45:10 --> Class "App\Libraries\Autenticacao" not found
+#0 C:\xampp\htdocs\Food\system\Config\BaseService.php(189): Config\Services::autenticacao(false)
+#1 C:\xampp\htdocs\Food\app\Config\Services.php(25): CodeIgniter\Config\BaseService::getSharedInstance('autenticacao')
+#2 C:\xampp\htdocs\Food\system\Common.php(929): Config\Services::autenticacao()
+#3 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(20): service('autenticacao')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->index()
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Food\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2025-06-20 10:45:20 --> Class "App\Libraries\Autenticacao" not found
+#0 C:\xampp\htdocs\Food\system\Config\BaseService.php(189): Config\Services::autenticacao(false)
+#1 C:\xampp\htdocs\Food\app\Config\Services.php(25): CodeIgniter\Config\BaseService::getSharedInstance('autenticacao')
+#2 C:\xampp\htdocs\Food\system\Common.php(929): Config\Services::autenticacao()
+#3 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(20): service('autenticacao')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->index()
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Food\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2025-06-20 10:46:04 --> Class "App\Libraries\Autenticacao" not found
+#0 C:\xampp\htdocs\Food\system\Config\BaseService.php(189): Config\Services::autenticacao(false)
+#1 C:\xampp\htdocs\Food\app\Config\Services.php(25): CodeIgniter\Config\BaseService::getSharedInstance('autenticacao')
+#2 C:\xampp\htdocs\Food\system\Common.php(929): Config\Services::autenticacao()
+#3 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(20): service('autenticacao')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->index()
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2025-06-20 10:46:09 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:46:09 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:46:10 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:46:10 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:46:10 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:46:10 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:46:21 --> Class "App\Libraries\Autenticacao" not found
+#0 C:\xampp\htdocs\Food\system\Config\BaseService.php(189): Config\Services::autenticacao(false)
+#1 C:\xampp\htdocs\Food\app\Config\Services.php(25): CodeIgniter\Config\BaseService::getSharedInstance('autenticacao')
+#2 C:\xampp\htdocs\Food\system\Common.php(929): Config\Services::autenticacao()
+#3 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(20): service('autenticacao')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->index()
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2025-06-20 10:48:04 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:05 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:05 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:05 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:05 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:05 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:06 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:06 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:06 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:07 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:07 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:07 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:10 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:10 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:10 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:10 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:10 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:10 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:17 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:17 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:17 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:17 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:17 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:17 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:56 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:56 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:56 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:56 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:56 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:57 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:59 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:59 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:59 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:48:59 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:49:00 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:49:00 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:50:57 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:50:57 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:50:57 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:50:57 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:50:57 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:50:57 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:51:03 --> Class "App\Libraries\Autenticacao" not found
+#0 C:\xampp\htdocs\Food\system\Config\BaseService.php(189): Config\Services::autenticacao(false)
+#1 C:\xampp\htdocs\Food\app\Config\Services.php(25): CodeIgniter\Config\BaseService::getSharedInstance('autenticacao')
+#2 C:\xampp\htdocs\Food\system\Common.php(929): Config\Services::autenticacao()
+#3 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(20): service('autenticacao')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->index()
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2025-06-20 10:51:03 --> Class "App\Libraries\Autenticacao" not found
+#0 C:\xampp\htdocs\Food\system\Config\BaseService.php(189): Config\Services::autenticacao(false)
+#1 C:\xampp\htdocs\Food\app\Config\Services.php(25): CodeIgniter\Config\BaseService::getSharedInstance('autenticacao')
+#2 C:\xampp\htdocs\Food\system\Common.php(929): Config\Services::autenticacao()
+#3 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(20): service('autenticacao')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->index()
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2025-06-20 10:51:24 --> Class "App\Libraries\Autenticacao" not found
+#0 C:\xampp\htdocs\Food\system\Config\BaseService.php(189): Config\Services::autenticacao(false)
+#1 C:\xampp\htdocs\Food\app\Config\Services.php(25): CodeIgniter\Config\BaseService::getSharedInstance('autenticacao')
+#2 C:\xampp\htdocs\Food\system\Common.php(929): Config\Services::autenticacao()
+#3 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(20): service('autenticacao')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->index()
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2025-06-20 10:52:30 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:52:30 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:52:30 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:52:30 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:52:30 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 10:52:30 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2025-06-20 10:54:24 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+CRITICAL - 2025-06-20 10:54:24 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+#0 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Food\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Food\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(204): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(156): App\Controllers\Admin\Usuarios->buscaUsuarioOu404(3)
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->excluir('3')
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2025-06-20 10:56:36 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+CRITICAL - 2025-06-20 10:56:36 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+#0 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Food\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Food\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(204): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(156): App\Controllers\Admin\Usuarios->buscaUsuarioOu404(3)
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->excluir('3')
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2025-06-20 10:57:11 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+CRITICAL - 2025-06-20 10:57:11 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+#0 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Food\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Food\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(204): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(156): App\Controllers\Admin\Usuarios->buscaUsuarioOu404(3)
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->excluir('3')
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2025-06-20 10:57:13 --> Class "App\Libraries\Autenticacao" not found
+#0 C:\xampp\htdocs\Food\system\Config\BaseService.php(189): Config\Services::autenticacao(false)
+#1 C:\xampp\htdocs\Food\app\Config\Services.php(25): CodeIgniter\Config\BaseService::getSharedInstance('autenticacao')
+#2 C:\xampp\htdocs\Food\system\Common.php(929): Config\Services::autenticacao()
+#3 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(20): service('autenticacao')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->index()
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2025-06-20 10:57:15 --> Class "App\Libraries\Autenticacao" not found
+#0 C:\xampp\htdocs\Food\system\Config\BaseService.php(189): Config\Services::autenticacao(false)
+#1 C:\xampp\htdocs\Food\app\Config\Services.php(25): CodeIgniter\Config\BaseService::getSharedInstance('autenticacao')
+#2 C:\xampp\htdocs\Food\system\Common.php(929): Config\Services::autenticacao()
+#3 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(20): service('autenticacao')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->index()
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2025-06-20 10:57:15 --> Class "App\Libraries\Autenticacao" not found
+#0 C:\xampp\htdocs\Food\system\Config\BaseService.php(189): Config\Services::autenticacao(false)
+#1 C:\xampp\htdocs\Food\app\Config\Services.php(25): CodeIgniter\Config\BaseService::getSharedInstance('autenticacao')
+#2 C:\xampp\htdocs\Food\system\Common.php(929): Config\Services::autenticacao()
+#3 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(20): service('autenticacao')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->index()
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2025-06-20 11:04:16 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+CRITICAL - 2025-06-20 11:04:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+#0 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\Food\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#3 C:\xampp\htdocs\Food\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#4 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(24): CodeIgniter\BaseModel->paginate(10)
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->index()
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2025-06-20 11:04:20 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+CRITICAL - 2025-06-20 11:04:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+#0 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\Food\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#3 C:\xampp\htdocs\Food\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#4 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(24): CodeIgniter\BaseModel->paginate(10)
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->index()
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2025-06-20 11:05:48 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+CRITICAL - 2025-06-20 11:05:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+#0 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\Food\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#3 C:\xampp\htdocs\Food\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#4 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(24): CodeIgniter\BaseModel->paginate(10)
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->index()
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2025-06-20 11:07:21 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+CRITICAL - 2025-06-20 11:07:21 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+#0 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\Food\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#3 C:\xampp\htdocs\Food\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#4 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(24): CodeIgniter\BaseModel->paginate(10)
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->index()
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2025-06-20 11:08:02 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+CRITICAL - 2025-06-20 11:08:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+#0 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\Food\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#3 C:\xampp\htdocs\Food\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#4 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(24): CodeIgniter\BaseModel->paginate(10)
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->index()
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2025-06-20 16:44:53 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+CRITICAL - 2025-06-20 16:44:53 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+#0 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(571): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\Food\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#3 C:\xampp\htdocs\Food\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#4 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(24): CodeIgniter\BaseModel->paginate(10)
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->index()
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2025-06-20 16:47:08 --> Declaration of CodeIgniter\Database\MySQLi\Connection::_listTables(bool $prefixLimit = false): string must be compatible with CodeIgniter\Database\BaseConnection::_listTables(bool $constrainByPrefix = false, ?string $tableName = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-06-20 16:47:21 --> Declaration of CodeIgniter\Database\MySQLi\Connection::_listTables(bool $prefixLimit = false): string must be compatible with CodeIgniter\Database\BaseConnection::_listTables(bool $constrainByPrefix = false, ?string $tableName = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-06-20 16:47:25 --> Declaration of CodeIgniter\Database\MySQLi\Connection::_listTables(bool $prefixLimit = false): string must be compatible with CodeIgniter\Database\BaseConnection::_listTables(bool $constrainByPrefix = false, ?string $tableName = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-06-20 16:47:29 --> Declaration of CodeIgniter\Database\MySQLi\Connection::_listTables(bool $prefixLimit = false): string must be compatible with CodeIgniter\Database\BaseConnection::_listTables(bool $constrainByPrefix = false, ?string $tableName = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2025-06-20 16:47:41 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+CRITICAL - 2025-06-20 16:47:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+#0 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(571): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Food\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Food\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(204): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404(1)
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('1')
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2025-06-20 16:47:48 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+CRITICAL - 2025-06-20 16:47:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+#0 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(571): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Food\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Food\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(204): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404(1)
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('1')
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2025-06-20 16:48:00 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+CRITICAL - 2025-06-20 16:48:00 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+#0 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Food\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Food\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(204): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404(1)
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('1')
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2025-06-20 16:48:18 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+CRITICAL - 2025-06-20 16:48:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+#0 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Food\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Food\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(204): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404(1)
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('1')
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2025-06-20 16:49:44 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 16:49:44 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 16:49:45 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 16:49:45 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 16:49:45 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 16:49:45 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 17:06:34 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 17:06:34 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 17:06:34 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 17:06:34 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 17:06:34 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 17:06:34 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 17:08:08 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 17:08:08 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 17:08:08 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 17:08:08 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 17:08:08 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 17:08:08 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 17:08:09 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 156
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(156): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->excluir('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 17:08:09 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 156
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(156): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->excluir('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 17:08:09 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 156
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(156): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->excluir('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 17:08:10 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 156
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(156): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->excluir('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 17:08:10 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 156
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(156): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->excluir('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 17:08:10 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 156
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(156): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->excluir('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 17:11:55 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 17:11:55 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 17:11:55 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 17:11:55 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 17:11:55 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-20 17:11:56 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

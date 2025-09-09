@@ -1,0 +1,30 @@
+ERROR - 2025-08-24 23:35:29 --> Table 'food.pedidos_items' doesn't exist
+CRITICAL - 2025-08-24 23:35:29 --> Table 'food.pedidos_items' doesn't exist
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `produto...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produto...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produto...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `produto...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Controllers\Home.php(47): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-24 23:36:41 --> Unknown column 'produtos.created_at' in 'order clause'
+CRITICAL - 2025-08-24 23:36:41 --> Unknown column 'produtos.created_at' in 'order clause'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `produto...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produto...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produto...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `produto...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Controllers\Home.php(56): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}

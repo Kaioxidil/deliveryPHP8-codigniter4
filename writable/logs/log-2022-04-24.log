@@ -1,0 +1,528 @@
+CRITICAL - 2022-04-24 08:05:29 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:29 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:29 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:29 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:29 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:29 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:30 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 71
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(71): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:30 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 71
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(71): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:30 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 71
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(71): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:30 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 71
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(71): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:30 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 71
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(71): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:30 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 71
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(71): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:33 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 71
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(71): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:33 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 71
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(71): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:33 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 71
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(71): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:33 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 71
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(71): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:33 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 71
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(71): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:33 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 71
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(71): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:42 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:42 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:42 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:42 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:42 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:42 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:44 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 71
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(71): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:44 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 71
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(71): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:44 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 71
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(71): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:44 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 71
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(71): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:44 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 71
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(71): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:44 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 71
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(71): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:48 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 71
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(71): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:48 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 71
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(71): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:48 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 71
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(71): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:48 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 71
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(71): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:48 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 71
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(71): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:48 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 71
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(71): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:52 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:52 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:52 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:52 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:52 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 08:05:52 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 11:54:18 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 11:54:18 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 11:54:18 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 11:54:18 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 11:54:18 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 11:54:18 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 11:54:19 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 71
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(71): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 11:54:19 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 71
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(71): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 11:54:19 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 71
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(71): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 11:54:19 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 71
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(71): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 11:54:19 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 71
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(71): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 11:54:19 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 71
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(71): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 11:54:23 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 11:54:23 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 11:54:24 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 11:54:24 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 11:54:24 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 11:54:24 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 11:54:27 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 11:54:27 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 11:54:27 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 11:54:27 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 11:54:27 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}
+CRITICAL - 2022-04-24 11:54:27 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php on line 47
+#0 D:\Documentos\Projetos\Estudos\php-food-delivery\app\Controllers\Admin\Usuarios.php(47): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 D:\Documentos\Projetos\Estudos\php-food-delivery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Documentos\Projetos\Estudos\php-food-delivery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Documentos\Projetos\Estudos\php-food-delivery\system\Commands\Server\rewrite.php(43): require_once('D:\\Documentos\\P...')
+#6 {main}

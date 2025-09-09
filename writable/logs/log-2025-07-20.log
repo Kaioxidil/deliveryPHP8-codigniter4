@@ -1,0 +1,80 @@
+ERROR - 2025-07-20 00:05:17 --> Unknown column 'usuarios_enderecos.bairro_id' in 'on clause'
+CRITICAL - 2025-07-20 00:05:17 --> Unknown column 'usuarios_enderecos.bairro_id' in 'on clause'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Food\app\Models\PedidoModel.php(183): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(49): App\Models\PedidoModel->recuperaDetalhesDoPedidoParaModal(9, 1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(9)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-20 00:05:37 --> Table 'food.bairro' doesn't exist
+CRITICAL - 2025-07-20 00:05:37 --> Table 'food.bairro' doesn't exist
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Food\app\Models\PedidoModel.php(183): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(49): App\Models\PedidoModel->recuperaDetalhesDoPedidoParaModal(9, 1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(9)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-20 00:05:49 --> Unknown column 'bairro.nome' in 'field list'
+CRITICAL - 2025-07-20 00:05:49 --> Unknown column 'bairro.nome' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Food\app\Models\PedidoModel.php(183): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(49): App\Models\PedidoModel->recuperaDetalhesDoPedidoParaModal(9, 1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(9)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-20 00:09:02 --> Unknown column 'usuarios_enderecos.bairro_id' in 'on clause'
+CRITICAL - 2025-07-20 00:09:02 --> Unknown column 'usuarios_enderecos.bairro_id' in 'on clause'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Food\app\Models\PedidoModel.php(181): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(49): App\Models\PedidoModel->recuperaDetalhesDoPedidoParaModal(9, 1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(9)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-20 00:12:51 --> Unknown column 'usuarios_enderecos.bairro_id' in 'on clause'
+CRITICAL - 2025-07-20 00:12:51 --> Unknown column 'usuarios_enderecos.bairro_id' in 'on clause'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Food\app\Models\PedidoModel.php(180): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(49): App\Models\PedidoModel->recuperaDetalhesDoPedidoParaModal(9, 1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(9)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}

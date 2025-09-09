@@ -1,0 +1,2859 @@
+ERROR - 2025-07-21 18:57:17 --> Unknown column 'pedidos.forma_pagamento' in 'field list'
+CRITICAL - 2025-07-21 18:57:17 --> Unknown column 'pedidos.forma_pagamento' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Food\app\Models\PedidoModel.php(180): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(49): App\Models\PedidoModel->recuperaDetalhesDoPedidoParaModal(14, 1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(14)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-21 18:58:21 --> Unknown column 'pedidos.valor_entrega' in 'field list'
+CRITICAL - 2025-07-21 18:58:21 --> Unknown column 'pedidos.valor_entrega' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Food\app\Models\PedidoModel.php(180): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(49): App\Models\PedidoModel->recuperaDetalhesDoPedidoParaModal(14, 1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(14)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-21 18:59:02 --> Unknown column 'bairros.valor_entrega' in 'field list'
+CRITICAL - 2025-07-21 18:59:02 --> Unknown column 'bairros.valor_entrega' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Food\app\Models\PedidoModel.php(180): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(49): App\Models\PedidoModel->recuperaDetalhesDoPedidoParaModal(14, 1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(14)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-07-21 19:01:02 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/pedidos/a...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2025-07-21 19:04:45 --> Unknown column 'pedidos.valor_entrega' in 'field list'
+CRITICAL - 2025-07-21 19:04:45 --> Unknown column 'pedidos.valor_entrega' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Food\app\Models\PedidoModel.php(182): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(49): App\Models\PedidoModel->recuperaDetalhesDoPedidoParaModal(14, 1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(14)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-21 19:19:41 --> Column 'criado_em' in order clause is ambiguous
+CRITICAL - 2025-07-21 19:19:41 --> Column 'criado_em' in order clause is ambiguous
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(51): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->index()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-07-21 19:21:15 --> Unknown column 'codigo' in 'where clause'
+CRITICAL - 2025-07-21 19:21:15 --> Unknown column 'codigo' in 'where clause'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(44): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->index()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-07-21 19:28:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`bairro`, IF(usuarios_enderecos.id IS NULL, 
+            'Endereço não inf...' at line 1
+CRITICAL - 2025-07-21 19:28:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`bairro`, IF(usuarios_enderecos.id IS NULL, 
+            'Endereço não inf...' at line 1
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Food\app\Models\PedidoModel.php(190): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Food\app\Controllers\OrdensController.php(69): App\Models\PedidoModel->recuperaDetalhesDoPedidoParaModal(14, 1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\OrdensController->detalhes(14)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdensController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-21 19:43:12 --> DADOS DO PEDIDO #12: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 12
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 
+            [forma_pagamento_id] => 1
+            [valor_total] => 30.00
+            [status] => pendente
+            [observacoes] => 
+            [criado_em] => 2025-07-21 13:14:07
+            [atualizado_em] => 2025-07-21 13:14:07
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => 
+            [numero] => 
+            [cidade] => 
+            [estado] => 
+            [cep] => 
+            [bairro] => 
+            [taxa_entrega_bairro] => 
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 12
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 
+            [forma_pagamento_id] => 1
+            [valor_total] => 30.00
+            [status] => pendente
+            [observacoes] => 
+            [criado_em] => 2025-07-21 13:14:07
+            [atualizado_em] => 2025-07-21 13:14:07
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => 
+            [numero] => 
+            [cidade] => 
+            [estado] => 
+            [cep] => 
+            [bairro] => 
+            [taxa_entrega_bairro] => 
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+ERROR - 2025-07-21 19:54:19 --> DADOS DO PEDIDO #15: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 15
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 30.00
+            [status] => pendente
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 19:54:02
+            [atualizado_em] => 2025-07-21 19:54:02
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 15
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 30.00
+            [status] => pendente
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 19:54:02
+            [atualizado_em] => 2025-07-21 19:54:02
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+ERROR - 2025-07-21 20:00:29 --> DADOS DO PEDIDO #16: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 16
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 35.00
+            [status] => pendente
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:00:06
+            [atualizado_em] => 2025-07-21 20:00:06
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 16
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 35.00
+            [status] => pendente
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:00:06
+            [atualizado_em] => 2025-07-21 20:00:06
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+ERROR - 2025-07-21 20:01:14 --> DADOS DO PEDIDO #16: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 16
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 35.00
+            [status] => pendente
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:00:06
+            [atualizado_em] => 2025-07-21 20:00:06
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 16
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 35.00
+            [status] => pendente
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:00:06
+            [atualizado_em] => 2025-07-21 20:00:06
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+ERROR - 2025-07-21 20:04:18 --> DADOS DO PEDIDO #16: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 16
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 35.00
+            [status] => pendente
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:00:06
+            [atualizado_em] => 2025-07-21 20:00:06
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 16
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 35.00
+            [status] => pendente
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:00:06
+            [atualizado_em] => 2025-07-21 20:00:06
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+CRITICAL - 2025-07-21 20:07:00 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/pedidos/a...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-21 20:07:06 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/pedidos/a...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-21 20:20:56 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/pedidos/a...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-21 20:21:03 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/pedidos/a...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2025-07-21 20:25:29 --> DADOS DO PEDIDO #16: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 16
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 35.00
+            [status] => saiu_para_entrega
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:00:06
+            [atualizado_em] => 2025-07-21 20:20:52
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 16
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 35.00
+            [status] => saiu_para_entrega
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:00:06
+            [atualizado_em] => 2025-07-21 20:20:52
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+ERROR - 2025-07-21 20:25:40 --> DADOS DO PEDIDO #16: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 16
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 35.00
+            [status] => saiu_para_entrega
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:00:06
+            [atualizado_em] => 2025-07-21 20:20:52
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 16
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 35.00
+            [status] => saiu_para_entrega
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:00:06
+            [atualizado_em] => 2025-07-21 20:20:52
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+ERROR - 2025-07-21 20:29:16 --> DADOS DO PEDIDO #16: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 16
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 35.00
+            [status] => saiu_para_entrega
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:00:06
+            [atualizado_em] => 2025-07-21 20:20:52
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 16
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 35.00
+            [status] => saiu_para_entrega
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:00:06
+            [atualizado_em] => 2025-07-21 20:20:52
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+ERROR - 2025-07-21 20:29:31 --> DADOS DO PEDIDO #15: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 15
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 30.00
+            [status] => pendente
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 19:54:02
+            [atualizado_em] => 2025-07-21 19:54:02
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 15
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 30.00
+            [status] => pendente
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 19:54:02
+            [atualizado_em] => 2025-07-21 19:54:02
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+ERROR - 2025-07-21 20:29:33 --> DADOS DO PEDIDO #16: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 16
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 35.00
+            [status] => saiu_para_entrega
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:00:06
+            [atualizado_em] => 2025-07-21 20:20:52
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 16
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 35.00
+            [status] => saiu_para_entrega
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:00:06
+            [atualizado_em] => 2025-07-21 20:20:52
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+ERROR - 2025-07-21 20:30:42 --> Unknown column 'pedidos.codigo' in 'field list'
+CRITICAL - 2025-07-21 20:30:42 --> Unknown column 'pedidos.codigo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\xampp\htdocs\Food\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#7 C:\xampp\htdocs\Food\app\Models\PedidoModel.php(79): CodeIgniter\BaseModel->paginate(10)
+#8 C:\xampp\htdocs\Food\app\Controllers\Admin\Pedidos.php(47): App\Models\PedidoModel->recuperaPedidosPaginados(Array, 10)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Pedidos->index()
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#11 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2025-07-21 20:32:48 --> DADOS DO PEDIDO #16: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 16
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 35.00
+            [status] => saiu_para_entrega
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:00:06
+            [atualizado_em] => 2025-07-21 20:20:52
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 16
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 35.00
+            [status] => saiu_para_entrega
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:00:06
+            [atualizado_em] => 2025-07-21 20:20:52
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+ERROR - 2025-07-21 20:37:06 --> DADOS DO PEDIDO #16: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 16
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 35.00
+            [status] => entregue
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:00:06
+            [atualizado_em] => 2025-07-21 20:36:53
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Lipao
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 16
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 35.00
+            [status] => entregue
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:00:06
+            [atualizado_em] => 2025-07-21 20:36:53
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Lipao
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+ERROR - 2025-07-21 20:40:30 --> DADOS DO PEDIDO #17: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 17
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 30.00
+            [status] => pendente
+            [observacoes] => 
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:40:01
+            [atualizado_em] => 2025-07-21 20:40:01
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 17
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 30.00
+            [status] => pendente
+            [observacoes] => 
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:40:01
+            [atualizado_em] => 2025-07-21 20:40:01
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+CRITICAL - 2025-07-21 21:06:51 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/pedidos/p...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-21 21:06:57 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/pedidos/p...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2025-07-21 21:07:13 --> DADOS DO PEDIDO #17: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 17
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 30.00
+            [status] => saiu_para_entrega
+            [observacoes] => 
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:40:01
+            [atualizado_em] => 2025-07-21 21:06:46
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Lipao
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 17
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 30.00
+            [status] => saiu_para_entrega
+            [observacoes] => 
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:40:01
+            [atualizado_em] => 2025-07-21 21:06:46
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Lipao
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+CRITICAL - 2025-07-21 21:07:22 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/pedidos/p...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-21 21:07:37 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/pedidos/p...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-21 21:07:38 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/pedidos/p...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-21 21:07:39 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/pedidos/p...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-21 21:07:51 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/pedidos/p...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-21 21:22:46 --> Arquivo inválido: Admin/Pedidos/_tabela_pedidos.php
+#0 C:\xampp\htdocs\Food\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/Pedidos/_...')
+#1 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Pedidos/_...', Array, true)
+#2 C:\xampp\htdocs\Food\app\Controllers\Admin\Home.php(58): view('Admin/Pedidos/_...', Array)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Home->atualizarDashboard()
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2025-07-21 21:22:51 --> Arquivo inválido: Admin/Pedidos/_tabela_pedidos.php
+#0 C:\xampp\htdocs\Food\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/Pedidos/_...')
+#1 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Pedidos/_...', Array, true)
+#2 C:\xampp\htdocs\Food\app\Controllers\Admin\Home.php(58): view('Admin/Pedidos/_...', Array)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Home->atualizarDashboard()
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2025-07-21 21:22:57 --> Arquivo inválido: Admin/Pedidos/_tabela_pedidos.php
+#0 C:\xampp\htdocs\Food\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/Pedidos/_...')
+#1 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Pedidos/_...', Array, true)
+#2 C:\xampp\htdocs\Food\app\Controllers\Admin\Home.php(58): view('Admin/Pedidos/_...', Array)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Home->atualizarDashboard()
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2025-07-21 21:31:05 --> DADOS DO PEDIDO #17: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 17
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 30.00
+            [status] => entregue
+            [observacoes] => 
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:40:01
+            [atualizado_em] => 2025-07-21 21:25:46
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Lipao
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 17
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 30.00
+            [status] => entregue
+            [observacoes] => 
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:40:01
+            [atualizado_em] => 2025-07-21 21:25:46
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Lipao
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+ERROR - 2025-07-21 21:31:09 --> DADOS DO PEDIDO #17: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 17
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 30.00
+            [status] => entregue
+            [observacoes] => 
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:40:01
+            [atualizado_em] => 2025-07-21 21:25:46
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Lipao
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 17
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 30.00
+            [status] => entregue
+            [observacoes] => 
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:40:01
+            [atualizado_em] => 2025-07-21 21:25:46
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Lipao
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+ERROR - 2025-07-21 22:10:54 --> DADOS DO PEDIDO #17: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 17
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 30.00
+            [status] => entregue
+            [observacoes] => 
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:40:01
+            [atualizado_em] => 2025-07-21 21:52:32
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Lipao
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 17
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 30.00
+            [status] => entregue
+            [observacoes] => 
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:40:01
+            [atualizado_em] => 2025-07-21 21:52:32
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Lipao
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+ERROR - 2025-07-21 22:10:56 --> DADOS DO PEDIDO #16: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 16
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 35.00
+            [status] => em_preparacao
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:00:06
+            [atualizado_em] => 2025-07-21 22:09:13
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 16
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 35.00
+            [status] => em_preparacao
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:00:06
+            [atualizado_em] => 2025-07-21 22:09:13
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+ERROR - 2025-07-21 22:10:57 --> DADOS DO PEDIDO #16: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 16
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 35.00
+            [status] => em_preparacao
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:00:06
+            [atualizado_em] => 2025-07-21 22:09:13
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 16
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 35.00
+            [status] => em_preparacao
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:00:06
+            [atualizado_em] => 2025-07-21 22:09:13
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+ERROR - 2025-07-21 22:15:01 --> DADOS DO PEDIDO #16: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 16
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 35.00
+            [status] => saiu_para_entrega
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:00:06
+            [atualizado_em] => 2025-07-21 22:13:35
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Lipao
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 16
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 35.00
+            [status] => saiu_para_entrega
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:00:06
+            [atualizado_em] => 2025-07-21 22:13:35
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Lipao
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+ERROR - 2025-07-21 22:52:06 --> DADOS DO PEDIDO #17: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 17
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 30.00
+            [status] => entregue
+            [observacoes] => 
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:40:01
+            [atualizado_em] => 2025-07-21 22:52:00
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Lipao
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 17
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 30.00
+            [status] => entregue
+            [observacoes] => 
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:40:01
+            [atualizado_em] => 2025-07-21 22:52:00
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Lipao
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+CRITICAL - 2025-07-21 23:25:57 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('conta/atualizar', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-21 23:26:06 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('conta/atualizar', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2025-07-21 23:36:37 --> DADOS DO PEDIDO #17: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 17
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 30.00
+            [status] => entregue
+            [observacoes] => 
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:40:01
+            [atualizado_em] => 2025-07-21 22:52:00
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Lipao
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 17
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 30.00
+            [status] => entregue
+            [observacoes] => 
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:40:01
+            [atualizado_em] => 2025-07-21 22:52:00
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Lipao
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+ERROR - 2025-07-21 23:36:43 --> DADOS DO PEDIDO #17: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 17
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 30.00
+            [status] => entregue
+            [observacoes] => 
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:40:01
+            [atualizado_em] => 2025-07-21 22:52:00
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Lipao
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 17
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 30.00
+            [status] => entregue
+            [observacoes] => 
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:40:01
+            [atualizado_em] => 2025-07-21 22:52:00
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Lipao
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+ERROR - 2025-07-21 23:51:11 --> DADOS DO PEDIDO #17: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 17
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 30.00
+            [status] => entregue
+            [observacoes] => 
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:40:01
+            [atualizado_em] => 2025-07-21 22:52:00
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Lipao
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 17
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 30.00
+            [status] => entregue
+            [observacoes] => 
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:40:01
+            [atualizado_em] => 2025-07-21 22:52:00
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Lipao
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+ERROR - 2025-07-21 23:51:16 --> DADOS DO PEDIDO #17: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 17
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 30.00
+            [status] => entregue
+            [observacoes] => 
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:40:01
+            [atualizado_em] => 2025-07-21 22:52:00
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Lipao
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 17
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 30.00
+            [status] => entregue
+            [observacoes] => 
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:40:01
+            [atualizado_em] => 2025-07-21 22:52:00
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Lipao
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+ERROR - 2025-07-21 23:51:21 --> DADOS DO PEDIDO #17: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 17
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 30.00
+            [status] => entregue
+            [observacoes] => 
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:40:01
+            [atualizado_em] => 2025-07-21 22:52:00
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Lipao
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 17
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 30.00
+            [status] => entregue
+            [observacoes] => 
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:40:01
+            [atualizado_em] => 2025-07-21 22:52:00
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Lipao
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+ERROR - 2025-07-21 23:51:24 --> DADOS DO PEDIDO #16: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 16
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 35.00
+            [status] => saiu_para_entrega
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:00:06
+            [atualizado_em] => 2025-07-21 22:13:35
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Lipao
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 16
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 35.00
+            [status] => saiu_para_entrega
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:00:06
+            [atualizado_em] => 2025-07-21 22:13:35
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Lipao
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+ERROR - 2025-07-21 23:51:26 --> DADOS DO PEDIDO #17: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 17
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 30.00
+            [status] => entregue
+            [observacoes] => 
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:40:01
+            [atualizado_em] => 2025-07-21 22:52:00
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Lipao
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 17
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 30.00
+            [status] => entregue
+            [observacoes] => 
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-21 20:40:01
+            [atualizado_em] => 2025-07-21 22:52:00
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Lipao
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Jardim Veneza
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+

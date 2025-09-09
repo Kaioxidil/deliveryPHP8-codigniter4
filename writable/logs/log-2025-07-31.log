@@ -1,0 +1,1488 @@
+CRITICAL - 2025-07-31 17:53:20 --> Undefined variable $pedido
+#0 C:\xampp\htdocs\Food\app\Views\Admin\Pedidos\email_pedido_atualizado.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\Food\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Food\app\Controllers\Admin\Pedidos.php(178): CodeIgniter\View\View->render('Admin/Pedidos/e...', Array)
+#4 C:\xampp\htdocs\Food\app\Controllers\Admin\Pedidos.php(140): App\Controllers\Admin\Pedidos->prepararMensagemEmail(Object(App\Entities\Pedido), Object(stdClass))
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Pedidos->processarAcao()
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2025-07-31 17:55:20 --> Cannot add or update a child row: a foreign key constraint fails (`food`.`pedidos`, CONSTRAINT `pedidos_forma_pagamento_id_foreign` FOREIGN KEY (`forma_pagamento_id`) REFERENCES `formas_pagamento` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2025-07-31 17:55:20 --> Cannot add or update a child row: a foreign key constraint fails (`food`.`pedidos`, CONSTRAINT `pedidos_forma_pagamento_id_foreign` FOREIGN KEY (`forma_pagamento_id`) REFERENCES `formas_pagamento` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Food\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Food\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Food\app\Controllers\Admin\Pedidos.php(116): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Pedidos->processarAcao()
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#11 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2025-07-31 17:56:52 --> DADOS DO PEDIDO #6: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 6
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 15.25
+            [status] => em_preparacao
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-31 17:45:02
+            [atualizado_em] => 2025-07-31 17:53:20
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Centro
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 6
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 15.25
+            [status] => em_preparacao
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-31 17:45:02
+            [atualizado_em] => 2025-07-31 17:53:20
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Centro
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+ERROR - 2025-07-31 17:56:54 --> DADOS DO PEDIDO #5: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 5
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 16.25
+            [status] => pendente
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-31 17:44:20
+            [atualizado_em] => 2025-07-31 17:44:20
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Centro
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 5
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 16.25
+            [status] => pendente
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-31 17:44:20
+            [atualizado_em] => 2025-07-31 17:44:20
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Centro
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+ERROR - 2025-07-31 17:57:09 --> DADOS DO PEDIDO #5: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 5
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 16.25
+            [status] => pendente
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-31 17:44:20
+            [atualizado_em] => 2025-07-31 17:44:20
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Centro
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 5
+            [usuario_id] => 1
+            [entregador_id] => 
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 16.25
+            [status] => pendente
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-31 17:44:20
+            [atualizado_em] => 2025-07-31 17:44:20
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => 
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Centro
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+ERROR - 2025-07-31 17:57:11 --> DADOS DO PEDIDO #4: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 4
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 17.25
+            [status] => saiu_para_entrega
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-23 22:12:45
+            [atualizado_em] => 2025-07-29 21:59:59
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Kaio
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Centro
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 4
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 17.25
+            [status] => saiu_para_entrega
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-23 22:12:45
+            [atualizado_em] => 2025-07-29 21:59:59
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Kaio
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Centro
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+ERROR - 2025-07-31 17:57:15 --> DADOS DO PEDIDO #2: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 2
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 16.25
+            [status] => saiu_para_entrega
+            [observacoes] => troco para 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-23 21:40:46
+            [atualizado_em] => 2025-07-29 21:59:32
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Kaio
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Centro
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 2
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 16.25
+            [status] => saiu_para_entrega
+            [observacoes] => troco para 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-23 21:40:46
+            [atualizado_em] => 2025-07-29 21:59:32
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Kaio
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Centro
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+ERROR - 2025-07-31 17:57:18 --> DADOS DO PEDIDO #1: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 1
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 16.25
+            [status] => entregue
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-23 21:29:39
+            [atualizado_em] => 2025-07-28 13:03:56
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Kaio
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Centro
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 1
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 16.25
+            [status] => entregue
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-23 21:29:39
+            [atualizado_em] => 2025-07-28 13:03:56
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Kaio
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Centro
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+CRITICAL - 2025-07-31 17:58:02 --> Undefined variable $pedido
+#0 C:\xampp\htdocs\Food\app\Views\Admin\Pedidos\email_pedido_atualizado.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\Food\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Food\app\Controllers\Admin\Pedidos.php(186): CodeIgniter\View\View->render('Admin/Pedidos/e...', Array)
+#4 C:\xampp\htdocs\Food\app\Controllers\Admin\Pedidos.php(150): App\Controllers\Admin\Pedidos->prepararMensagemEmail(Object(App\Entities\Pedido), Object(stdClass))
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Pedidos->processarAcao()
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2025-07-31 18:00:17 --> Undefined variable $pedido
+#0 C:\xampp\htdocs\Food\app\Views\Admin\Pedidos\email_pedido_atualizado.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\Food\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Food\app\Controllers\Admin\Pedidos.php(186): CodeIgniter\View\View->render('Admin/Pedidos/e...', Array)
+#4 C:\xampp\htdocs\Food\app\Controllers\Admin\Pedidos.php(150): App\Controllers\Admin\Pedidos->prepararMensagemEmail(Object(App\Entities\Pedido), Object(stdClass))
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Pedidos->processarAcao()
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2025-07-31 18:09:12 --> Undefined variable $pedido
+#0 C:\xampp\htdocs\Food\app\Views\Admin\Pedidos\email_pedido_atualizado.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\Food\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Food\app\Controllers\Admin\Pedidos.php(165): CodeIgniter\View\View->render('Admin/Pedidos/e...', Array)
+#4 C:\xampp\htdocs\Food\app\Controllers\Admin\Pedidos.php(133): App\Controllers\Admin\Pedidos->prepararMensagemEmail(Object(App\Entities\Pedido), Object(stdClass))
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Pedidos->processarAcao()
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2025-07-31 18:10:22 --> DADOS DO PEDIDO #6: App\Entities\Pedido Object
+(
+    [datamap:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 6
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 15.25
+            [status] => entregue
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-31 17:45:02
+            [atualizado_em] => 2025-07-31 18:09:12
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Kaio
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Centro
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 6
+            [usuario_id] => 1
+            [entregador_id] => 1
+            [endereco_id] => 1
+            [forma_pagamento_id] => 1
+            [valor_total] => 15.25
+            [status] => entregue
+            [observacoes] => 50
+            [valor_entrega] => 5.00
+            [criado_em] => 2025-07-31 17:45:02
+            [atualizado_em] => 2025-07-31 18:09:12
+            [deletado_em] => 
+            [forma_pagamento] => Dinheiro
+            [entregador_nome] => Kaio
+            [logradouro] => Simão Rodrigues da SIlva
+            [numero] => 134
+            [cidade] => Terra Roxa
+            [estado] => PR
+            [cep] => 85990000
+            [bairro] => Centro
+            [taxa_entrega_bairro] => 5.00
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+ERROR - 2025-07-31 18:33:45 --> Unknown column 'produto_nome' in 'field list'
+CRITICAL - 2025-07-31 18:33:45 --> Unknown column 'produto_nome' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `quantid...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `quantid...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `quantid...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `quantid...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoModel.php(316): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Entregador.php(125): App\Models\PedidoModel->recuperaDetalhesDoPedidoParaEntregador(6, 1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Entregador->mapaRotaModal(6)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-31 18:38:05 --> Unknown column 'produto_nome' in 'field list'
+CRITICAL - 2025-07-31 18:38:05 --> Unknown column 'produto_nome' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `quantid...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `quantid...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `quantid...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `quantid...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoModel.php(316): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Entregador.php(125): App\Models\PedidoModel->recuperaDetalhesDoPedidoParaEntregador(2, 1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Entregador->mapaRotaModal(2)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-31 18:38:06 --> Unknown column 'produto_nome' in 'field list'
+CRITICAL - 2025-07-31 18:38:06 --> Unknown column 'produto_nome' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `quantid...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `quantid...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `quantid...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `quantid...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoModel.php(316): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Entregador.php(109): App\Models\PedidoModel->recuperaDetalhesDoPedidoParaEntregador(2, 1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Entregador->detalhesPedidoModal(2)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-31 18:38:09 --> Unknown column 'produto_nome' in 'field list'
+CRITICAL - 2025-07-31 18:38:09 --> Unknown column 'produto_nome' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `quantid...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `quantid...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `quantid...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `quantid...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoModel.php(316): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Entregador.php(125): App\Models\PedidoModel->recuperaDetalhesDoPedidoParaEntregador(6, 1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Entregador->mapaRotaModal(6)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-31 18:38:22 --> Unknown column 'produto_nome' in 'field list'
+CRITICAL - 2025-07-31 18:38:22 --> Unknown column 'produto_nome' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `quantid...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `quantid...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `quantid...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `quantid...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoModel.php(316): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Entregador.php(125): App\Models\PedidoModel->recuperaDetalhesDoPedidoParaEntregador(2, 1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Entregador->mapaRotaModal(2)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-31 18:38:44 --> Unknown column 'produto_nome' in 'field list'
+CRITICAL - 2025-07-31 18:38:44 --> Unknown column 'produto_nome' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `quantid...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `quantid...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `quantid...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `quantid...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoModel.php(316): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Entregador.php(109): App\Models\PedidoModel->recuperaDetalhesDoPedidoParaEntregador(2, 1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Entregador->detalhesPedidoModal(2)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-31 18:39:08 --> Unknown column 'produto_nome' in 'field list'
+CRITICAL - 2025-07-31 18:39:08 --> Unknown column 'produto_nome' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `quantid...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `quantid...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `quantid...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `quantid...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoModel.php(316): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Entregador.php(125): App\Models\PedidoModel->recuperaDetalhesDoPedidoParaEntregador(2, 1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Entregador->mapaRotaModal(2)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-31 18:40:42 --> Unknown column 'produto_nome' in 'field list'
+CRITICAL - 2025-07-31 18:40:42 --> Unknown column 'produto_nome' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `quantid...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `quantid...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `quantid...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `quantid...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoModel.php(316): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Entregador.php(125): App\Models\PedidoModel->recuperaDetalhesDoPedidoParaEntregador(2, 1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Entregador->mapaRotaModal(2)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-31 18:45:19 --> Unknown column 'produto_nome' in 'field list'
+CRITICAL - 2025-07-31 18:45:19 --> Unknown column 'produto_nome' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `quantid...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `quantid...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `quantid...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `quantid...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoModel.php(316): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Entregador.php(125): App\Models\PedidoModel->recuperaDetalhesDoPedidoParaEntregador(4, 1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Entregador->mapaRotaModal(4)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-31 18:47:13 --> Unknown column 'produto_nome' in 'field list'
+CRITICAL - 2025-07-31 18:47:13 --> Unknown column 'produto_nome' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `quantid...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `quantid...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `quantid...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `quantid...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoModel.php(316): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Entregador.php(125): App\Models\PedidoModel->recuperaDetalhesDoPedidoParaEntregador(2, 1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Entregador->mapaRotaModal(2)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-31 18:48:04 --> Unknown column 'produto_nome' in 'field list'
+CRITICAL - 2025-07-31 18:48:04 --> Unknown column 'produto_nome' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `quantid...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `quantid...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `quantid...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `quantid...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoModel.php(316): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Entregador.php(125): App\Models\PedidoModel->recuperaDetalhesDoPedidoParaEntregador(2, 1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Entregador->mapaRotaModal(2)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-31 18:52:00 --> Unknown column 'produto_nome' in 'field list'
+CRITICAL - 2025-07-31 18:52:00 --> Unknown column 'produto_nome' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `quantid...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `quantid...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `quantid...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `quantid...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoModel.php(316): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Entregador.php(131): App\Models\PedidoModel->recuperaDetalhesDoPedidoParaEntregador(2, 1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Entregador->mapaRotaModal(2)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-31 18:52:22 --> Unknown column 'produto_nome' in 'field list'
+CRITICAL - 2025-07-31 18:52:22 --> Unknown column 'produto_nome' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `quantid...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `quantid...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `quantid...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `quantid...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoModel.php(316): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Entregador.php(131): App\Models\PedidoModel->recuperaDetalhesDoPedidoParaEntregador(2, 1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Entregador->mapaRotaModal(2)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-31 18:53:26 --> Unknown column 'produto_nome' in 'field list'
+CRITICAL - 2025-07-31 18:53:26 --> Unknown column 'produto_nome' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `quantid...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `quantid...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `quantid...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `quantid...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoModel.php(316): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Entregador.php(131): App\Models\PedidoModel->recuperaDetalhesDoPedidoParaEntregador(2, 1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Entregador->mapaRotaModal(2)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-31 18:53:30 --> Unknown column 'produto_nome' in 'field list'
+CRITICAL - 2025-07-31 18:53:30 --> Unknown column 'produto_nome' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `quantid...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `quantid...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `quantid...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `quantid...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoModel.php(316): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Entregador.php(131): App\Models\PedidoModel->recuperaDetalhesDoPedidoParaEntregador(2, 1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Entregador->mapaRotaModal(2)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-31 18:53:33 --> Unknown column 'produto_nome' in 'field list'
+CRITICAL - 2025-07-31 18:53:33 --> Unknown column 'produto_nome' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `quantid...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `quantid...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `quantid...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `quantid...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\PedidoModel.php(316): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Entregador.php(131): App\Models\PedidoModel->recuperaDetalhesDoPedidoParaEntregador(2, 1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Entregador->mapaRotaModal(2)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-07-31 19:01:14 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:01:16 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:01:17 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:01:17 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:01:17 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:01:18 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:01:18 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:01:18 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:01:19 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:01:19 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:01:19 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:01:19 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:01:19 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:01:19 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:01:20 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:01:20 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:01:20 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:01:20 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:01:21 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:01:21 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:01:21 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:01:21 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:09:35 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:09:36 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:09:37 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:09:37 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:09:37 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:09:37 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:09:38 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:09:38 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:16:13 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:16:18 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:17:16 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:18:28 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:19:51 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('entregador/muda...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-07-31 19:19:51 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::is()
+#0 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Entregador->atualizarStatusPedido()
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2025-07-31 19:21:50 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::is()
+#0 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Entregador->atualizarStatusPedido()
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2025-07-31 19:23:34 --> Cannot call constructor
+#0 C:\xampp\htdocs\Food\system\CodeIgniter.php(809): App\Controllers\Entregador->__construct()
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2025-07-31 19:23:34 --> Cannot call constructor
+#0 C:\xampp\htdocs\Food\system\CodeIgniter.php(809): App\Controllers\Entregador->__construct()
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2025-07-31 19:27:03 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::is()
+#0 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Entregador->atualizarStatusPedido()
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2025-07-31 19:27:37 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::is()
+#0 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Entregador->atualizarStatusPedido()
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2025-07-31 20:20:51 --> Undefined variable $embedUrlGeral
+#0 C:\xampp\htdocs\Food\app\Views\entregador\painel.php(361): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 361)
+#1 C:\xampp\htdocs\Food\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('entregador/pain...', Array, true)
+#4 C:\xampp\htdocs\Food\app\Controllers\Entregador.php(74): view('entregador/pain...', Array)
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Entregador->painel()
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2025-07-31 20:20:52 --> Undefined variable $embedUrlGeral
+#0 C:\xampp\htdocs\Food\app\Views\entregador\painel.php(361): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 361)
+#1 C:\xampp\htdocs\Food\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('entregador/pain...', Array, true)
+#4 C:\xampp\htdocs\Food\app\Controllers\Entregador.php(74): view('entregador/pain...', Array)
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Entregador->painel()
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregador))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2025-07-31 21:34:42 --> Arquivo inválido: Admin/Pdv.php
+#0 C:\xampp\htdocs\Food\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/Pdv.php')
+#1 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Pdv', Array, true)
+#2 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(35): view('Admin/Pdv', Array)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->index()
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2025-07-31 21:56:28 --> Unknown column 'produtos.preco' in 'field list'
+CRITICAL - 2025-07-31 21:56:28 --> Unknown column 'produtos.preco' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `produto...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produto...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produto...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `produto...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\ProdutoModel.php(147): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(37): App\Models\ProdutoModel->BuscaProdutosPdv()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-31 21:57:43 --> Unknown column 'produtos.preco' in 'field list'
+CRITICAL - 2025-07-31 21:57:43 --> Unknown column 'produtos.preco' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `produto...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produto...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produto...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `produto...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\ProdutoModel.php(148): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(37): App\Models\ProdutoModel->BuscaProdutosPdv()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-31 21:57:44 --> Unknown column 'produtos.preco' in 'field list'
+CRITICAL - 2025-07-31 21:57:44 --> Unknown column 'produtos.preco' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `produto...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produto...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produto...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `produto...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\ProdutoModel.php(148): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(37): App\Models\ProdutoModel->BuscaProdutosPdv()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-07-31 22:20:03 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-07-31 22:20:03 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-07-31 22:21:48 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-07-31 22:21:48 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-07-31 22:27:43 --> Call to undefined method App\Models\PedidoModel::valorPedidosDoMes
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Home.php(55): CodeIgniter\Model->__call('valorPedidosDoM...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Home->atualizarDashboard()
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-31 22:27:44 --> Call to undefined method App\Models\PedidoModel::valorPedidosDoMes
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Home.php(55): CodeIgniter\Model->__call('valorPedidosDoM...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Home->atualizarDashboard()
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-07-31 22:27:44 --> Call to undefined method App\Models\PedidoModel::valorPedidosDoMes
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Home.php(31): CodeIgniter\Model->__call('valorPedidosDoM...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Home->index()
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2025-07-31 22:28:20 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-07-31 22:28:20 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-07-31 22:29:07 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-07-31 22:29:07 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}

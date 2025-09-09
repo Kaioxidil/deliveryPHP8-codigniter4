@@ -1,0 +1,31 @@
+CRITICAL - 2025-06-29 18:35:06 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, OBJECT given
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('OBJECT')
+#1 C:\xampp\htdocs\Food\system\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('OBJECT')
+#2 C:\xampp\htdocs\Food\system\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('OBJECT')
+#3 C:\xampp\htdocs\Food\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult('OBJECT')
+#4 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#6 C:\xampp\htdocs\Food\app\Models\ProdutoEspecificacaoModel.php(43): CodeIgniter\BaseModel->paginate(10)
+#7 C:\xampp\htdocs\Food\app\Controllers\Admin\Produtos.php(412): App\Models\ProdutoEspecificacaoModel->buscaEspecificacoesDoProduto(1, 10)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Produtos->especificacoes('1')
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-06-29 21:24:50 --> Undefined array key "preco"
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Produtos.php(423): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 423)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Produtos->cadastrarEspecificacoes('1')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-29 21:25:12 --> Undefined array key "preco"
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Produtos.php(423): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 423)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Produtos->cadastrarEspecificacoes('1')
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

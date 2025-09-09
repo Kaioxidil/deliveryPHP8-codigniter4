@@ -1,0 +1,26 @@
+ERROR - 2025-08-04 11:24:45 --> MySQL server has gone away
+CRITICAL - 2025-08-04 11:24:45 --> MySQL server has gone away
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-08-04 11:55:35 --> syntax error, unexpected identifier " "
+#0 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Config/fo...', Array, true)
+#2 C:\xampp\htdocs\Food\app\Controllers\Admin\EmpresaController.php(85): view('Admin/Config/fo...', Array)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\EmpresaController->form('1')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EmpresaController))
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

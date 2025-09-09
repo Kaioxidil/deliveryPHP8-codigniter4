@@ -1,0 +1,1620 @@
+ERROR - 2025-08-01 12:10:18 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+CRITICAL - 2025-08-01 12:10:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+#0 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#2 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2025-08-01 12:10:29 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2025-08-01 12:10:29 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#2 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2025-08-01 12:11:51 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:11:51 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:11:52 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:11:52 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:11:53 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:11:53 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:11:54 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:11:54 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:11:54 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:11:54 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:11:55 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:11:55 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:11:55 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:11:55 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:11:57 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:11:57 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:11:57 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:11:57 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:11:58 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:11:58 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:11:58 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:11:58 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:11:58 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:11:58 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:11:59 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:11:59 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:11:59 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:11:59 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:11:59 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:11:59 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:12:00 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:12:00 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:12:00 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:12:00 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:12:00 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:12:00 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:12:01 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:12:01 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:12:01 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:12:01 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:12:01 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:12:01 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:12:01 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:12:01 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:12:02 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:12:02 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:12:17 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:12:17 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:12:18 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:12:18 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:12:52 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:12:52 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:12:53 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:12:53 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:12:54 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:12:54 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:12:54 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:12:54 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:12:54 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:12:54 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:12:55 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:12:55 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:13:01 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:13:01 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:13:08 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:13:08 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:13:15 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:13:15 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2025-08-01 12:13:15 --> Table 'food.categorias' doesn't exist in engine
+CRITICAL - 2025-08-01 12:13:15 --> Table 'food.categorias' doesn't exist in engine
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Food\app\Models\CategoriaModel.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Food\app\Controllers\Home.php(35): App\Models\CategoriaModel->BuscaCategoriasPublicHome()
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-08-01 12:30:37 --> syntax error, unexpected identifier " ", expecting "function" or "const"
+#0 C:\xampp\htdocs\Food\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Food\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2025-08-01 12:37:59 --> Call to undefined method App\Models\PedidoModel::valorPedidosDoPeriodo
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Home.php(63): CodeIgniter\Model->__call('valorPedidosDoP...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Home->atualizarDashboard()
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-08-01 12:38:04 --> Call to undefined method App\Models\PedidoModel::valorPedidosDoPeriodo
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Home.php(63): CodeIgniter\Model->__call('valorPedidosDoP...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Home->atualizarDashboard()
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-08-01 12:38:09 --> Call to undefined method App\Models\PedidoModel::valorPedidosDoPeriodo
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Home.php(63): CodeIgniter\Model->__call('valorPedidosDoP...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Home->atualizarDashboard()
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-08-01 12:44:22 --> Call to undefined method App\Models\PedidoModel::recuperaPedidosPaginados
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Pedidos.php(46): CodeIgniter\Model->__call('recuperaPedidos...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Pedidos->index()
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-08-01 12:44:26 --> Call to undefined method App\Models\PedidoModel::recuperaPedidosPaginados
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Pedidos.php(46): CodeIgniter\Model->__call('recuperaPedidos...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Pedidos->index()
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-08-01 12:45:28 --> Call to undefined method App\Models\PedidoModel::recuperaPedidosPaginados
+#0 C:\xampp\htdocs\Food\app\Controllers\Admin\Pedidos.php(46): CodeIgniter\Model->__call('recuperaPedidos...', Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Pedidos->index()
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2025-08-01 12:54:28 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 12:54:28 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:04:18 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:04:18 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:06:14 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:06:14 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:06:14 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:06:14 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:06:15 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:06:15 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:06:15 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:06:15 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:06:15 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:06:15 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:06:15 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:06:15 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:06:16 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:06:16 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:06:16 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:06:16 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:06:16 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:06:16 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:06:17 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:06:17 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:06:18 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:06:18 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:06:18 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:06:18 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:06:18 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:06:18 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:06:19 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:06:19 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:06:19 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:06:19 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:06:19 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:06:19 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:06:20 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:06:20 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:06:20 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:06:20 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:06:21 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:06:21 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:06:21 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:06:21 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:06:21 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:06:21 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:06:21 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:06:21 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:06:22 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:06:22 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:06:22 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:06:22 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:06:22 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:06:22 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:06:23 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:06:23 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:06:23 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:06:23 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:06:24 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:06:24 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:07:27 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:07:27 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:07:27 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:07:27 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:07:28 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:07:28 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:10:04 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:10:04 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:10:06 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:10:06 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:10:08 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:10:08 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:10:10 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:10:10 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:10:12 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:10:12 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:10:13 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:10:13 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:10:15 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:10:15 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:10:17 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:10:17 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:10:18 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:10:18 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:10:20 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:10:20 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:21:35 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:21:35 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:21:41 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:21:41 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 13:21:44 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 13:21:44 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 14:05:57 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 14:05:57 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 14:05:57 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 14:05:57 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 14:05:57 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 14:05:57 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 14:05:57 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 14:05:57 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 14:05:57 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 14:05:57 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 14:06:02 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 14:06:02 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 14:15:26 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 14:15:26 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 16:18:17 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 16:18:17 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 16:18:19 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 16:18:19 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 16:18:21 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 16:18:21 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2025-08-01 16:19:48 --> Unknown column 'preco_minimo' in 'field list'
+CRITICAL - 2025-08-01 16:19:48 --> Unknown column 'preco_minimo' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#6 C:\xampp\htdocs\Food\app\Controllers\Admin\PdvController.php(78): CodeIgniter\BaseModel->find(1)
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\PdvController->buscarOpcoes(1)
+#8 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PdvController))
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-08-01 21:26:20 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/pdv/busca...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-08-01 21:26:21 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/pdv/busca...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-08-01 21:30:05 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/pdv/busca...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-08-01 21:30:16 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/pdv/busca...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-08-01 21:30:17 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/pdv/busca...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-08-01 21:58:04 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/pdv/busca...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-08-01 21:58:04 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/pdv/busca...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-08-01 21:58:05 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/pdv/busca...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-08-01 21:58:07 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/pdv/busca...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-08-01 21:58:08 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/pdv/busca...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-08-01 21:58:21 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/pdv/busca...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-08-01 21:58:21 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/pdv/busca...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2025-08-01 22:08:10 --> A ação que você requisitou não é permitida.
+#0 C:\xampp\htdocs\Food\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Food\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Food\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/pdv/busca...', 'before')
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}

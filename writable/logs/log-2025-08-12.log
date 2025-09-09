@@ -1,0 +1,240 @@
+ERROR - 2025-08-12 19:56:21 --> Unknown column 'pedidos_por_hora' in 'field list'
+CRITICAL - 2025-08-12 19:56:21 --> Unknown column 'pedidos_por_hora' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `empresa...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `empresa...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `empresa...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `empresa...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Food\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Food\system\BaseModel.php(656): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\Food\app\Controllers\Admin\EmpresaController.php(116): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\EmpresaController->save()
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EmpresaController))
+#11 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2025-08-12 20:04:03 --> Unknown column 'pedidos_por_hora' in 'field list'
+CRITICAL - 2025-08-12 20:04:03 --> Unknown column 'pedidos_por_hora' in 'field list'
+#0 C:\xampp\htdocs\Food\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `empresa...', 0)
+#1 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `empresa...')
+#2 C:\xampp\htdocs\Food\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `empresa...')
+#3 C:\xampp\htdocs\Food\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `empresa...', Array, false)
+#4 C:\xampp\htdocs\Food\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Food\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Food\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Food\system\BaseModel.php(656): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\Food\app\Controllers\Admin\EmpresaController.php(116): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\EmpresaController->save()
+#10 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EmpresaController))
+#11 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-08-12 20:28:37 --> Undefined variable $estaAbertoAgora
+#0 C:\xampp\htdocs\Food\app\Views\Home\index.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 299)
+#1 C:\xampp\htdocs\Food\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Home/index', Array, true)
+#4 C:\xampp\htdocs\Food\app\Controllers\Home.php(42): view('Home/index', Array)
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2025-08-12 20:32:06 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Food\app\Controllers\Home.php(42): App\Controllers\Home->verificaHorarioAbertura(Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-08-12 20:32:07 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Food\app\Controllers\Home.php(42): App\Controllers\Home->verificaHorarioAbertura(Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-08-12 20:32:08 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Food\app\Controllers\Home.php(42): App\Controllers\Home->verificaHorarioAbertura(Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-08-12 20:32:09 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Food\app\Controllers\Home.php(42): App\Controllers\Home->verificaHorarioAbertura(Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-08-12 20:32:10 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Food\app\Controllers\Home.php(42): App\Controllers\Home->verificaHorarioAbertura(Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-08-12 20:34:15 --> Undefined variable $estaAbertoAgora
+#0 C:\xampp\htdocs\Food\app\Views\View\index.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 295)
+#1 C:\xampp\htdocs\Food\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('View/index', Array, true)
+#4 C:\xampp\htdocs\Food\app\Controllers\Home.php(113): view('View/index', Array)
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->Vizualizar()
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2025-08-12 20:36:27 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Food\app\Controllers\Home.php(98): App\Controllers\Home->verificaHorarioAbertura(Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->Vizualizar()
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-08-12 20:36:29 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Food\app\Controllers\Home.php(98): App\Controllers\Home->verificaHorarioAbertura(Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->Vizualizar()
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-08-12 20:36:29 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Food\app\Controllers\Home.php(98): App\Controllers\Home->verificaHorarioAbertura(Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->Vizualizar()
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-08-12 20:36:30 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Food\app\Controllers\Home.php(98): App\Controllers\Home->verificaHorarioAbertura(Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->Vizualizar()
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-08-12 20:36:31 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Food\app\Controllers\Home.php(98): App\Controllers\Home->verificaHorarioAbertura(Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->Vizualizar()
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-08-12 20:37:42 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Food\app\Controllers\Home.php(107): App\Controllers\Home->verificaHorarioAbertura(Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->Vizualizar()
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-08-12 20:37:43 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Food\app\Controllers\Home.php(107): App\Controllers\Home->verificaHorarioAbertura(Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->Vizualizar()
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-08-12 20:37:44 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Food\app\Controllers\Home.php(107): App\Controllers\Home->verificaHorarioAbertura(Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->Vizualizar()
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-08-12 20:37:44 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Food\app\Controllers\Home.php(107): App\Controllers\Home->verificaHorarioAbertura(Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->Vizualizar()
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-08-12 20:39:02 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Food\app\Controllers\Home.php(105): App\Controllers\Home->verificaHorarioAbertura(Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->Vizualizar()
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-08-12 20:39:03 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Food\app\Controllers\Home.php(105): App\Controllers\Home->verificaHorarioAbertura(Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->Vizualizar()
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-08-12 20:39:04 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Food\app\Controllers\Home.php(105): App\Controllers\Home->verificaHorarioAbertura(Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->Vizualizar()
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-08-12 20:39:04 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Food\app\Controllers\Home.php(105): App\Controllers\Home->verificaHorarioAbertura(Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->Vizualizar()
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-08-12 20:39:05 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Food\app\Controllers\Home.php(105): App\Controllers\Home->verificaHorarioAbertura(Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->Vizualizar()
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-08-12 20:39:05 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Food\app\Controllers\Home.php(105): App\Controllers\Home->verificaHorarioAbertura(Array)
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->Vizualizar()
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-08-12 20:39:45 --> Undefined variable $estaAbertoAgora
+#0 C:\xampp\htdocs\Food\app\Views\View\index.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 295)
+#1 C:\xampp\htdocs\Food\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('View/index', Array, true)
+#4 C:\xampp\htdocs\Food\app\Controllers\Home.php(111): view('View/index', Array)
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->Vizualizar()
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2025-08-12 20:49:05 --> syntax error, unexpected identifier " "
+#0 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('View/index', Array, true)
+#2 C:\xampp\htdocs\Food\app\Controllers\Home.php(152): view('View/index', Array)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Home->Vizualizar()
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

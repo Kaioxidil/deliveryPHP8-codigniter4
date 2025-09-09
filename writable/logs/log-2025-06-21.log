@@ -1,0 +1,59 @@
+CRITICAL - 2025-06-21 08:38:57 --> Class "App\Filters\Throttle" not found
+#0 C:\xampp\htdocs\Food\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('login/criar', 'before')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2025-06-21 19:18:45 --> Não há dados para update.
+#0 C:\xampp\htdocs\Food\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\Food\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\Food\system\BaseModel.php(656): CodeIgniter\Model->update('1', Object(App\Entities\Usuario))
+#3 C:\xampp\htdocs\Food\app\Controllers\Password.php(39): CodeIgniter\BaseModel->save(Object(App\Entities\Usuario))
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Password->processaesqueci()
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Password))
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2025-06-21 22:48:44 --> Too few arguments to function App\Controllers\Password::reset(), 0 passed in C:\xampp\htdocs\Food\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Password->reset()
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Password))
+#2 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2025-06-21 23:33:50 --> Não há dados para update.
+#0 C:\xampp\htdocs\Food\system\BaseModel.php(1593): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\Food\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(Array, 'update')
+#2 C:\xampp\htdocs\Food\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Object(App\Entities\Usuario))
+#3 C:\xampp\htdocs\Food\system\BaseModel.php(656): CodeIgniter\Model->update('1', Object(App\Entities\Usuario))
+#4 C:\xampp\htdocs\Food\app\Controllers\Password.php(66): CodeIgniter\BaseModel->save(Object(App\Entities\Usuario))
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Password->reset('5a68181e58300d2...')
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Password))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2025-06-21 23:40:38 --> Não há dados para update.
+#0 C:\xampp\htdocs\Food\system\BaseModel.php(1593): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\Food\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(Array, 'update')
+#2 C:\xampp\htdocs\Food\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Object(App\Entities\Usuario))
+#3 C:\xampp\htdocs\Food\system\BaseModel.php(656): CodeIgniter\Model->update('1', Object(App\Entities\Usuario))
+#4 C:\xampp\htdocs\Food\app\Controllers\Password.php(66): CodeIgniter\BaseModel->save(Object(App\Entities\Usuario))
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Password->reset('5a68181e58300d2...')
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Password))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2025-06-21 23:41:07 --> Não há dados para update.
+#0 C:\xampp\htdocs\Food\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\Food\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\Food\system\BaseModel.php(656): CodeIgniter\Model->update('1', Object(App\Entities\Usuario))
+#3 C:\xampp\htdocs\Food\app\Controllers\Password.php(94): CodeIgniter\BaseModel->save(Object(App\Entities\Usuario))
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Password->processaReset('5a68181e58300d2...')
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Password))
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}

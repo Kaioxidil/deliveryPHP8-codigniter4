@@ -1,0 +1,177 @@
+CRITICAL - 2025-06-19 21:26:32 --> Class "App\Libraries\Autenticacao" not found
+#0 C:\xampp\htdocs\php-food-delivery-main\system\Config\BaseService.php(189): Config\Services::autenticacao(false)
+#1 C:\xampp\htdocs\php-food-delivery-main\app\Config\Services.php(25): CodeIgniter\Config\BaseService::getSharedInstance('autenticacao')
+#2 C:\xampp\htdocs\php-food-delivery-main\system\Common.php(929): Config\Services::autenticacao()
+#3 C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php(20): service('autenticacao')
+#4 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->index()
+#5 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#6 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\php-food-delivery-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\php-food-delivery-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2025-06-19 21:27:01 --> Class "App\Libraries\Autenticacao" not found
+#0 C:\xampp\htdocs\php-food-delivery-main\system\Config\BaseService.php(189): Config\Services::autenticacao(false)
+#1 C:\xampp\htdocs\php-food-delivery-main\app\Config\Services.php(25): CodeIgniter\Config\BaseService::getSharedInstance('autenticacao')
+#2 C:\xampp\htdocs\php-food-delivery-main\system\Common.php(929): Config\Services::autenticacao()
+#3 C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php(20): service('autenticacao')
+#4 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->index()
+#5 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#6 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\php-food-delivery-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\php-food-delivery-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2025-06-19 21:27:07 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\php-food-delivery-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\php-food-delivery-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-19 21:27:07 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\php-food-delivery-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\php-food-delivery-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-19 21:27:07 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\php-food-delivery-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\php-food-delivery-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-19 21:27:07 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\php-food-delivery-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\php-food-delivery-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-19 21:27:07 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\php-food-delivery-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\php-food-delivery-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-19 21:27:07 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\php-food-delivery-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\php-food-delivery-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-19 21:27:10 --> Class "App\Libraries\Autenticacao" not found
+#0 C:\xampp\htdocs\php-food-delivery-main\system\Config\BaseService.php(189): Config\Services::autenticacao(false)
+#1 C:\xampp\htdocs\php-food-delivery-main\app\Config\Services.php(25): CodeIgniter\Config\BaseService::getSharedInstance('autenticacao')
+#2 C:\xampp\htdocs\php-food-delivery-main\system\Common.php(929): Config\Services::autenticacao()
+#3 C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php(20): service('autenticacao')
+#4 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->index()
+#5 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#6 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\php-food-delivery-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\php-food-delivery-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2025-06-19 21:27:36 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+#2 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\php-food-delivery-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\php-food-delivery-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-19 21:27:36 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\php-food-delivery-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\php-food-delivery-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-19 21:27:36 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\php-food-delivery-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\php-food-delivery-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-19 21:27:37 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\php-food-delivery-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\php-food-delivery-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-19 21:27:37 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\php-food-delivery-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\php-food-delivery-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-19 21:27:37 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php on line 73
+#0 C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php(73): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\php-food-delivery-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\php-food-delivery-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-19 21:27:46 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+#2 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\php-food-delivery-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\php-food-delivery-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-19 21:27:46 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+#2 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\php-food-delivery-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\php-food-delivery-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-19 21:27:46 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+#2 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\php-food-delivery-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\php-food-delivery-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-19 21:27:46 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+#2 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\php-food-delivery-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\php-food-delivery-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-19 21:27:47 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+#2 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\php-food-delivery-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\php-food-delivery-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-06-19 21:27:47 --> App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php on line 51
+#0 C:\xampp\htdocs\php-food-delivery-main\app\Controllers\Admin\Usuarios.php(51): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+#1 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+#2 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#3 C:\xampp\htdocs\php-food-delivery-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\php-food-delivery-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\php-food-delivery-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

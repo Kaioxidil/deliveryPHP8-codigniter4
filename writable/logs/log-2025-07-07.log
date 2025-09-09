@@ -1,0 +1,242 @@
+CRITICAL - 2025-07-07 21:31:22 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\laragon\www\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\laragon\www\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\laragon\www\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\laragon\www\Food\public\index.php(28): require('C:\\laragon\\www\\...')
+#4 {main}
+CRITICAL - 2025-07-07 21:31:22 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\laragon\www\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\laragon\www\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\laragon\www\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\laragon\www\Food\public\index.php(28): require('C:\\laragon\\www\\...')
+#4 {main}
+CRITICAL - 2025-07-07 21:32:49 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\laragon\www\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\laragon\www\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\laragon\www\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\laragon\www\Food\public\index.php(28): require('C:\\laragon\\www\\...')
+#4 {main}
+CRITICAL - 2025-07-07 21:32:50 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\laragon\www\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\laragon\www\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\laragon\www\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\laragon\www\Food\public\index.php(28): require('C:\\laragon\\www\\...')
+#4 {main}
+CRITICAL - 2025-07-07 21:36:05 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\laragon\www\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\laragon\www\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\laragon\www\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\laragon\www\Food\public\index.php(28): require('C:\\laragon\\www\\...')
+#4 {main}
+CRITICAL - 2025-07-07 21:37:01 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\laragon\www\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\laragon\www\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\laragon\www\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\laragon\www\Food\public\index.php(28): require('C:\\laragon\\www\\...')
+#4 {main}
+CRITICAL - 2025-07-07 21:37:01 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\laragon\www\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\laragon\www\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\laragon\www\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\laragon\www\Food\public\index.php(28): require('C:\\laragon\\www\\...')
+#4 {main}
+CRITICAL - 2025-07-07 21:40:13 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\laragon\www\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\laragon\www\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\laragon\www\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\laragon\www\Food\public\index.php(28): require('C:\\laragon\\www\\...')
+#4 {main}
+CRITICAL - 2025-07-07 21:43:15 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\laragon\www\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\laragon\www\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\laragon\www\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\laragon\www\Food\public\index.php(28): require('C:\\laragon\\www\\...')
+#4 {main}
+CRITICAL - 2025-07-07 21:43:16 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\laragon\www\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\laragon\www\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\laragon\www\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\laragon\www\Food\public\index.php(28): require('C:\\laragon\\www\\...')
+#4 {main}
+CRITICAL - 2025-07-07 21:43:17 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\laragon\www\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\laragon\www\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\laragon\www\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\laragon\www\Food\public\index.php(28): require('C:\\laragon\\www\\...')
+#4 {main}
+CRITICAL - 2025-07-07 21:43:19 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\laragon\www\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\laragon\www\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\laragon\www\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\laragon\www\Food\public\index.php(28): require('C:\\laragon\\www\\...')
+#4 {main}
+CRITICAL - 2025-07-07 21:43:19 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\laragon\www\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\laragon\www\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\laragon\www\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\laragon\www\Food\public\index.php(28): require('C:\\laragon\\www\\...')
+#4 {main}
+CRITICAL - 2025-07-07 21:43:21 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\laragon\www\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\laragon\www\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\laragon\www\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\laragon\www\Food\public\index.php(28): require('C:\\laragon\\www\\...')
+#4 {main}
+CRITICAL - 2025-07-07 21:43:21 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\laragon\www\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\laragon\www\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\laragon\www\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\laragon\www\Food\public\index.php(28): require('C:\\laragon\\www\\...')
+#4 {main}
+CRITICAL - 2025-07-07 21:43:21 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\laragon\www\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\laragon\www\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\laragon\www\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\laragon\www\Food\public\index.php(28): require('C:\\laragon\\www\\...')
+#4 {main}
+CRITICAL - 2025-07-07 23:47:27 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Food\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2025-07-07 23:48:40 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Food\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2025-07-07 23:48:41 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Food\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2025-07-07 23:48:42 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Food\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2025-07-07 23:48:42 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Food\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2025-07-07 23:51:14 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Food\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2025-07-07 23:51:15 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Food\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2025-07-07 23:51:16 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Food\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2025-07-07 23:51:31 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Food\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2025-07-07 23:51:31 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Food\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2025-07-07 23:51:34 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Food\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2025-07-07 23:51:35 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Food\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2025-07-07 23:51:35 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Food\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2025-07-07 23:51:36 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Food\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2025-07-07 23:51:36 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Food\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2025-07-07 23:51:37 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Food\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Food\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Food\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Food\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2025-07-07 19:25:03 --> Arquivo inválido: Admin/Entregadores/index.php
+#0 C:\xampp\htdocs\Food\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/Entregado...')
+#1 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Entregado...', Array, true)
+#2 C:\xampp\htdocs\Food\app\Controllers\Admin\Entregadores.php(30): view('Admin/Entregado...', Array)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Entregadores->index()
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2025-07-07 19:26:28 --> Arquivo inválido: Admin/Entregadores/index.php
+#0 C:\xampp\htdocs\Food\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/Entregado...')
+#1 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Entregado...', Array, true)
+#2 C:\xampp\htdocs\Food\app\Controllers\Admin\Entregadores.php(30): view('Admin/Entregado...', Array)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Entregadores->index()
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2025-07-07 19:29:24 --> Arquivo inválido: Admin/Entregadores/index.php
+#0 C:\xampp\htdocs\Food\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/Entregado...')
+#1 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Entregado...', Array, true)
+#2 C:\xampp\htdocs\Food\app\Controllers\Admin\Entregadores.php(25): view('Admin/Entregado...', Array)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Entregadores->index()
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2025-07-07 19:29:25 --> Arquivo inválido: Admin/Entregadores/index.php
+#0 C:\xampp\htdocs\Food\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/Entregado...')
+#1 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Entregado...', Array, true)
+#2 C:\xampp\htdocs\Food\app\Controllers\Admin\Entregadores.php(25): view('Admin/Entregado...', Array)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Entregadores->index()
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2025-07-07 19:29:28 --> Arquivo inválido: Admin/Entregadores/index.php
+#0 C:\xampp\htdocs\Food\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/Entregado...')
+#1 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Entregado...', Array, true)
+#2 C:\xampp\htdocs\Food\app\Controllers\Admin\Entregadores.php(25): view('Admin/Entregado...', Array)
+#3 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Entregadores->index()
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

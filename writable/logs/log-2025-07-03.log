@@ -1,0 +1,97 @@
+CRITICAL - 2025-07-03 13:56:31 --> Cannot modify header information - headers already sent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 743)
+#1 C:\xampp\htdocs\Food\system\HTTP\ResponseTrait.php(743): setcookie('csrf_cookie_nam...', '606bd0d0e5472e5...', Array)
+#2 C:\xampp\htdocs\Food\system\HTTP\ResponseTrait.php(719): CodeIgniter\HTTP\Response->doSetCookie('csrf_cookie_nam...', '606bd0d0e5472e5...', Array)
+#3 C:\xampp\htdocs\Food\system\HTTP\ResponseTrait.php(699): CodeIgniter\HTTP\Response->dispatchCookies()
+#4 C:\xampp\htdocs\Food\system\HTTP\ResponseTrait.php(443): CodeIgniter\HTTP\Response->sendCookies()
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(998): CodeIgniter\HTTP\Response->send()
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(458): CodeIgniter\CodeIgniter->sendResponse()
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2025-07-03 13:56:31 --> Uncaught ErrorException: Cannot modify header information - headers already sent in C:\xampp\htdocs\Food\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 112)
+#1 C:\xampp\htdocs\Food\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-03 13:56:33 --> Cannot modify header information - headers already sent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 743)
+#1 C:\xampp\htdocs\Food\system\HTTP\ResponseTrait.php(743): setcookie('csrf_cookie_nam...', 'd7d1db3d7ec4f35...', Array)
+#2 C:\xampp\htdocs\Food\system\HTTP\ResponseTrait.php(719): CodeIgniter\HTTP\Response->doSetCookie('csrf_cookie_nam...', 'd7d1db3d7ec4f35...', Array)
+#3 C:\xampp\htdocs\Food\system\HTTP\ResponseTrait.php(699): CodeIgniter\HTTP\Response->dispatchCookies()
+#4 C:\xampp\htdocs\Food\system\HTTP\ResponseTrait.php(443): CodeIgniter\HTTP\Response->sendCookies()
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(998): CodeIgniter\HTTP\Response->send()
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(458): CodeIgniter\CodeIgniter->sendResponse()
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2025-07-03 13:56:33 --> Uncaught ErrorException: Cannot modify header information - headers already sent in C:\xampp\htdocs\Food\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 112)
+#1 C:\xampp\htdocs\Food\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-03 13:56:35 --> Cannot modify header information - headers already sent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 743)
+#1 C:\xampp\htdocs\Food\system\HTTP\ResponseTrait.php(743): setcookie('csrf_cookie_nam...', '40bf54fdcf250a4...', Array)
+#2 C:\xampp\htdocs\Food\system\HTTP\ResponseTrait.php(719): CodeIgniter\HTTP\Response->doSetCookie('csrf_cookie_nam...', '40bf54fdcf250a4...', Array)
+#3 C:\xampp\htdocs\Food\system\HTTP\ResponseTrait.php(699): CodeIgniter\HTTP\Response->dispatchCookies()
+#4 C:\xampp\htdocs\Food\system\HTTP\ResponseTrait.php(443): CodeIgniter\HTTP\Response->sendCookies()
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(998): CodeIgniter\HTTP\Response->send()
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(458): CodeIgniter\CodeIgniter->sendResponse()
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2025-07-03 13:56:35 --> Uncaught ErrorException: Cannot modify header information - headers already sent in C:\xampp\htdocs\Food\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 112)
+#1 C:\xampp\htdocs\Food\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-03 22:41:46 --> Cannot use object of type App\Entities\Produto as array
+#0 C:\xampp\htdocs\Food\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Produtos/...', Array, true)
+#3 C:\xampp\htdocs\Food\app\Controllers\Admin\Produtos.php(600): view('Admin/Produtos/...', Array)
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Produtos->cupom()
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2025-07-03 22:45:43 --> Attempt to read property "id" on string
+#0 C:\xampp\htdocs\Food\app\Views\Admin\Produtos\cupom.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\Food\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Produtos/...', Array, true)
+#4 C:\xampp\htdocs\Food\app\Controllers\Admin\Produtos.php(600): view('Admin/Produtos/...', Array)
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Produtos->cupom()
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+#7 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2025-07-03 23:00:29 --> Cannot use object of type App\Entities\Produto as array
+#0 C:\xampp\htdocs\Food\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Food\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Food\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Produtos/...', Array, true)
+#3 C:\xampp\htdocs\Food\app\Controllers\Admin\Produtos.php(624): view('Admin/Produtos/...', Array)
+#4 C:\xampp\htdocs\Food\system\CodeIgniter.php(832): App\Controllers\Admin\Produtos->visualizarCupom()
+#5 C:\xampp\htdocs\Food\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+#6 C:\xampp\htdocs\Food\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Food\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
