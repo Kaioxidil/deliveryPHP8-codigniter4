@@ -42,7 +42,6 @@ This project aims to build a delivery system in web menu style, developed using 
 
 * Windows (recomendo para XAMPP) ou Linux/macOS
 * XAMPP (inclui Apache, MySQL, phpMyAdmin e PHP) — use uma versão com **PHP 8**
-* Composer (dependency manager PHP) — [https://getcomposer.org](https://getcomposer.org)
 * Git (opcional para clonar o repositório)
 * Acesso ao terminal/PowerShell (Windows) ou terminal (Linux/macOS)
 
@@ -103,34 +102,17 @@ php -v
 # deve mostrar PHP 8.x
 ```
 
-### 3) Instalar Composer (se ainda não tiver)
-
-**PT-BR:**
-
-* Baixe e instale Composer em [https://getcomposer.org/](https://getcomposer.org/) (Composer-Setup para Windows).
-
-**EN:**
-
-* Install Composer from [https://getcomposer.org/](https://getcomposer.org/) (use Composer-Setup on Windows).
-
-**Verificar composer:**
-
-```bash
-composer --version
-```
-
-### 4) Clonar repositório e instalar dependências
+### 3) Clonar repositório
 
 ```bash
 # no PowerShell/terminal
 git clone <URL-DO-REPO> delivery-project
 cd delivery-project
-composer install
 ```
 
 > Se você não usa Git, apenas extraia/fazer upload dos arquivos para a pasta do projeto.
 
-### 5) Colocar projeto na pasta do Apache (opcional) ou usar servidor embutido
+### 4) Colocar projeto na pasta do Apache (opcional) ou usar servidor embutido
 
 **Opção A – Usar XAMPP (Apache):**
 
@@ -141,28 +123,17 @@ composer install
 
 ```bash
 # estando na raiz do projeto
-php spark serve --host=127.0.0.1 --port=8080
-# depois acesse http://127.0.0.1:8080
+php spark serve 
+# depois acesse http://127.0.0.1:8080 (localhost:8080)
 ```
 
-### 6) Configurar variáveis de ambiente (.env) / Database
 
-**PT-BR:**
-
-1. Copie o arquivo `env` para `.env` (na raiz do projeto):
-
-```bash
-# Linux/macOS
-cp env .env
-# Windows (PowerShell)
-Copy-Item env .env
-```
 
 2. Abra `.env` e configure as variáveis do banco. Exemplo mínimo (cole e edite conforme necessário):
 
 ```
 CI_ENVIRONMENT = development
-app.baseURL = 'http://127.0.0.1:8080'
+app.baseURL = 'http://127.0.0.1:8080' ou (localhost:8080)
 
 database.default.hostname = localhost
 database.default.database = food
@@ -175,17 +146,12 @@ database.default.DBDriver = MySQLi
 
 **EN:**
 
-1. Copy `env` to `.env`:
-
-```bash
-cp env .env  # or PowerShell Copy-Item env .env
-```
 
 2. Edit `.env` and set DB variables. Example:
 
 ```
 CI_ENVIRONMENT = development
-app.baseURL = 'http://127.0.0.1:8080'
+app.baseURL = 'http://127.0.0.1:8080' (localhost:8080)
 
 database.default.hostname = localhost
 database.default.database = food
@@ -194,7 +160,7 @@ database.default.password =
 database.default.DBDriver = MySQLi
 ```
 
-### 7) Criar banco de dados `food` no phpMyAdmin
+### 6) Criar banco de dados `food` no phpMyAdmin
 
 **PT-BR:**
 
@@ -210,7 +176,7 @@ database.default.DBDriver = MySQLi
 3. Enter `food` as the database name and click **Create**.
 4. (Optional) Set collation to `utf8mb4_general_ci`.
 
-### 8) Rodar Migrations
+### 7) Rodar Migrations
 
 **PT-BR:**
 No terminal (raiz do projeto) execute:
@@ -230,7 +196,7 @@ php spark migrate
 
 This will run migrations in `app/Database/Migrations`.
 
-### 9) Rodar Seeders
+### 8) Rodar Seeders
 
 **PT-BR:**
 
@@ -264,7 +230,7 @@ php spark db:seed DatabaseSeeder
 
 > Se quiser rodar vários seeders de uma vez, execute os comandos um a um.
 
-### 10) Permissões (Linux/macOS)
+### 9) Permissões (Linux/macOS)
 
 **PT-BR:**
 Se estiver em Linux/macOS, ajuste permissões da pasta `writable`:
@@ -282,14 +248,11 @@ sudo chown -R $USER:www-data writable
 sudo chmod -R 775 writable
 ```
 
-### 11) Comandos úteis (copiar/colar)
+### 10) Comandos úteis (copiar/colar)
 
 ```bash
 # verificar php
 php -v
-
-# instalar dependências
-composer install
 
 # rodar servidor local (CodeIgniter)
 php spark serve --host=127.0.0.1 --port=8080
@@ -309,7 +272,6 @@ php spark db:seed DatabaseSeeder
 ## Dicas e resoluções de problemas / Tips & Troubleshooting
 
 * Se `php` não for reconhecido, verifique se o diretório `C:\xampp\php` está no `PATH` e reinicie o terminal.
-* Se `composer` não estiver disponível, instale pelo instalador oficial.
 * Erro de conexão com banco: revise as credenciais em `.env` ou `app/Config/Database.php`.
 * Se migrations não encontrarem classes, confirme namespace e nome dos arquivos em `app/Database/Migrations`.
 
